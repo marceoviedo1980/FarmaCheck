@@ -397,8 +397,9 @@
   <div class="header-top">
     <div class="header-icon">💊</div>
     <div class="header-title">
-      <h1>Buscador de Medicamentos</h1>
+      <h1>Stock de Medicamentos y Restricciones</h1>
       <p>HOSPITAL MUNICIPAL LA PORTADA</p>
+      <p style="font-size:10px;opacity:0.6;margin-top:2px;font-family:'IBM Plex Sans',sans-serif;">Creado por: Marcelo Oviedo L.</p>
     </div>
   </div>
   <div class="search-wrap">
@@ -409,11 +410,10 @@
     </div>
     <div class="filter-tabs" id="filterTabs">
       <button class="tab active" onclick="setFilter('Todos', this)">Todos</button>
+      <button class="tab" onclick="setFilter('⚠️ Con restricción', this)">Con restricción</button>
       <button class="tab" onclick="setFilter('Comprimido', this)">Comprimido</button>
       <button class="tab" onclick="setFilter('Inyectable', this)">Inyectable</button>
-      <button class="tab" onclick="setFilter('Solución', this)">Solución</button>
       <button class="tab" onclick="setFilter('Sobre estéril', this)">Insumos</button>
-      <button class="tab" onclick="setFilter('⚠️ Con restricción', this)">Con restricción</button>
     </div>
   </div>
 </header>
