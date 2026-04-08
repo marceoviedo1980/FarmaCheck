@@ -18,7 +18,7 @@
     "medicamento": "Acido acetil salicilico",
     "concentracion": "100 mg",
     "forma": "Comprimido",
-    "observacion": "SOLO 10 POR PACIENTE"
+    "observacion": "10 POR PACIENTE"
   },
   {
     "codigo": "A1102",
@@ -26,6 +26,13 @@
     "concentracion": "500 mg/ml, [2 ml]",
     "forma": "Inyectable",
     "observacion": ""
+  },
+  {
+    "codigo": "B0206",
+    "medicamento": "Acido Tranexamico",
+    "concentracion": "500 mg",
+    "forma": "Inyectable",
+    "observacion": "SOLO CASOS DE EMERGENCIA"
   },
   {
     "codigo": "DAC001",
@@ -74,14 +81,7 @@
     "medicamento": "Amlodipina",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "10 POR PACIENTE"
-  },
-  {
-    "codigo": "C0807",
-    "medicamento": "Amlodipina",
-    "concentracion": "10 mg",
-    "forma": "Comprimido",
-    "observacion": ""
+    "observacion": "SOLO 10 POR PACIENTE"
   },
   {
     "codigo": "J0105",
@@ -109,14 +109,7 @@
     "medicamento": "Atorvastatina",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": ""
-  },
-  {
-    "codigo": "C1005",
-    "medicamento": "Atorvastatina",
-    "concentracion": "20 mg",
-    "forma": "Comprimido",
-    "observacion": ""
+    "observacion": "SOLO 30 POR PACIENTE"
   },
   {
     "codigo": "M0301",
@@ -152,6 +145,13 @@
     "concentracion": "Pieza",
     "forma": "Siliconado (neonatal)",
     "observacion": ""
+  },
+  {
+    "codigo": "DTO003",
+    "medicamento": "Bigotera para oxígeno (Adulto)",
+    "concentracion": "Pieza",
+    "forma": "Siliconado (adulto)",
+    "observacion": "SOLO EN CASO DE EMERGENCIAS"
   },
   {
     "codigo": "DTO005",
@@ -221,49 +221,21 @@
     "medicamento": "Catéter venoso central",
     "concentracion": "Sobre estéril",
     "forma": "Triple lúmen set 7f",
-    "observacion": "1 POR PACIENTE UTI"
-  },
-  {
-    "codigo": "DAC063",
-    "medicamento": "Catéter venoso periférico",
-    "concentracion": "Sobre estéril",
-    "forma": "Nº 14",
-    "observacion": ""
-  },
-  {
-    "codigo": "DAC064",
-    "medicamento": "Catéter venoso periférico",
-    "concentracion": "Sobre estéril",
-    "forma": "Nº 16",
-    "observacion": ""
+    "observacion": "SOLO UTI, 1 POR PACIENTE"
   },
   {
     "codigo": "DAC065",
     "medicamento": "Catéter venoso periférico",
     "concentracion": "Sobre estéril",
     "forma": "Nº 18",
-    "observacion": "1 POR PACIENTE CADA 3 DIAS"
-  },
-  {
-    "codigo": "DAC066",
-    "medicamento": "Catéter venoso periférico",
-    "concentracion": "Sobre estéril",
-    "forma": "Nº 20",
-    "observacion": ""
-  },
-  {
-    "codigo": "DAC067",
-    "medicamento": "Catéter venoso periférico",
-    "concentracion": "Sobre estéril",
-    "forma": "Nº 22",
-    "observacion": ""
+    "observacion": "SOLO 1 POR PACIENTE CADA 3 DIAS"
   },
   {
     "codigo": "DAC068",
     "medicamento": "Catéter venoso periférico",
     "concentracion": "Sobre estéril",
     "forma": "Nº 24",
-    "observacion": "1 POR PACIENTE CADA 3 DIAS"
+    "observacion": "SOLO 1 POR PACIENTE CADA 3 DIAS"
   },
   {
     "codigo": "J0158",
@@ -271,6 +243,13 @@
     "concentracion": "400 mg",
     "forma": "Comprimido o Capsula",
     "observacion": ""
+  },
+  {
+    "codigo": "J0122",
+    "medicamento": "Cefotaxima",
+    "concentracion": "1 g",
+    "forma": "Inyectable",
+    "observacion": "SOLO CASOS DE EMERGENCIA"
   },
   {
     "codigo": "R0607",
@@ -319,28 +298,21 @@
     "medicamento": "Clorfenamina (Clorfeniramina)",
     "concentracion": "4 mg.",
     "forma": "Comprimido",
-    "observacion": "10 POR PACIENTE"
-  },
-  {
-    "codigo": "R0602",
-    "medicamento": "Clorfenamina (Clorfeniramina)",
-    "concentracion": "2 mg./5 ml.",
-    "forma": "Jarabe",
-    "observacion": ""
-  },
-  {
-    "codigo": "R0603",
-    "medicamento": "Clorfenamina (Clorfeniramina)",
-    "concentracion": "10 mg./ml.",
-    "forma": "Inyectable",
-    "observacion": ""
+    "observacion": "SOLO 10 POR PACIENTE"
   },
   {
     "codigo": "B0506",
     "medicamento": "Cloruro de potasio",
     "concentracion": "20%",
     "forma": "Inyectable",
-    "observacion": "3 POR PACIENTE POR DIA"
+    "observacion": "SOLO 3 POR PACIENTE DIA"
+  },
+  {
+    "codigo": "B0507",
+    "medicamento": "Cloruro de sodio",
+    "concentracion": "20%",
+    "forma": "Inyectable",
+    "observacion": "SOLO CASOS DE EMERGENCIA"
   },
   {
     "codigo": "D0103",
@@ -382,35 +354,35 @@
     "medicamento": "Complejo B (B1+B6+B12)",
     "concentracion": "Según concentración estandar",
     "forma": "Comprimido",
-    "observacion": "30 POR PACIENTE"
+    "observacion": "SOLO 30 POR PACIENTE"
+  },
+  {
+    "codigo": "DPF003",
+    "medicamento": "Condón Masculino",
+    "concentracion": "Sobre estéril",
+    "forma": "Pieza",
+    "observacion": ""
   },
   {
     "codigo": "H0204",
     "medicamento": "Dexametasona",
     "concentracion": "4 mg/ml",
     "forma": "Inyectable",
-    "observacion": "3 POR PACIENTE POR DIA"
+    "observacion": "SOLO 3 POR PACIENTE DIA"
   },
   {
-    "codigo": "M0101",
-    "medicamento": "Diclofenaco Sodico",
-    "concentracion": "1%, (20 g)",
-    "forma": "Pomada o Gel",
-    "observacion": ""
-  },
-  {
-    "codigo": "M0102",
-    "medicamento": "Diclofenaco Sodico",
-    "concentracion": "50 mg",
-    "forma": "Comprimido",
-    "observacion": ""
+    "codigo": "N0505",
+    "medicamento": "Diazepam",
+    "concentracion": "10 mg",
+    "forma": "Inyectable",
+    "observacion": "SOLO EN CASO DE EMERGENCIAS"
   },
   {
     "codigo": "M0103",
     "medicamento": "Diclofenaco Sodico",
     "concentracion": "75 mg",
     "forma": "Inyectable",
-    "observacion": "3 POR PACIENTE POR DIA"
+    "observacion": "SOLO 3 POR PACIENTE DIA"
   },
   {
     "codigo": "DMQ012",
@@ -438,14 +410,14 @@
     "medicamento": "Equipo de Venoclisis",
     "concentracion": "Sobre estéril",
     "forma": "Con aguja N° 21",
-    "observacion": "1 POR PACIENTE CADA 3 DIAS"
+    "observacion": "SOLO 1 POR PACIENTE CADA 3 DIAS"
   },
   {
     "codigo": "G0204",
     "medicamento": "Ergometrina maleato",
     "concentracion": "0,2 mg/ml",
     "forma": "Inyectable",
-    "observacion": "2 POR INTERNACION"
+    "observacion": "SOLO 2 POR INTERNACION"
   },
   {
     "codigo": "C0302",
@@ -477,17 +449,17 @@
   },
   {
     "codigo": "N0105",
-    "medicamento": "Citrato de Fentanilo con conservante",
+    "medicamento": "Citrato de Fentanilo (Ampolla de 10 ml)",
     "concentracion": "0,05 mg/ml",
-    "forma": "Inyectable",
-    "observacion": "QUIROFANO Y UCIN"
+    "forma": "Inyectable (Ampolla de 10 ml)",
+    "observacion": "SOLO QUIROFANO Y UCIN"
   },
   {
     "codigo": "N0106",
-    "medicamento": "Citrato de Fentanilo sin conservante",
+    "medicamento": "Citrato de Fentanilo (Ampolla de 2 ml)",
     "concentracion": "0,05 mg/ml",
-    "forma": "Inyectable",
-    "observacion": "QUIROFANO Y UCIN"
+    "forma": "Inyectable (Ampolla de 2 ml)",
+    "observacion": "SOLO QUIROFANO Y UCIN"
   },
   {
     "codigo": "DOT035",
@@ -518,18 +490,25 @@
     "observacion": ""
   },
   {
+    "codigo": "DL205",
+    "medicamento": "Frascos de plástico de 100 ml",
+    "concentracion": "Pieza",
+    "forma": "Con tapa rosca estéril",
+    "observacion": ""
+  },
+  {
     "codigo": "C0304",
     "medicamento": "Furosemida",
     "concentracion": "40 mg",
     "forma": "Comprimido ranurado",
-    "observacion": "10 POR PACIENTE POR MES"
+    "observacion": "SOLO 10 POR PACIENTE MES"
   },
   {
     "codigo": "C0305",
     "medicamento": "Furosemida",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "10 POR PACIENTE POR DIA"
+    "observacion": "MAX 10 POR PACIENTE POR DIA"
   },
   {
     "codigo": "J0149",
@@ -543,7 +522,7 @@
     "medicamento": "Glibenclamida",
     "concentracion": "5 mg",
     "forma": "Comprimido",
-    "observacion": "20 POR PACIENTE MES"
+    "observacion": "SOLO 20 POR PACIENTE MES"
   },
   {
     "codigo": "B0510",
@@ -553,25 +532,25 @@
     "observacion": ""
   },
   {
-    "codigo": "DMQ019.",
+    "codigo": "DMQ021",
     "medicamento": "Guantes quirúrgicos estéril",
-    "concentracion": "sobre esteril",
-    "forma": "N° 6  puño largo",
-    "observacion": "2 POR PACIENTE"
+    "concentracion": "Sobre estéril",
+    "forma": "N° 7 puño largo",
+    "observacion": "SOLO QUIROFANO MAXIMO 2"
   },
   {
     "codigo": "DMQ020",
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
     "forma": "N° 6 1/2 puño largo",
-    "observacion": "2 POR PACIENTE QUIROFANO"
+    "observacion": "SOLO QUIROFANO MAXIMO 2"
   },
   {
-    "codigo": "DMQ021",
+    "codigo": "DMQ019.",
     "medicamento": "Guantes quirúrgicos estéril",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 7 puño largo",
-    "observacion": "2 POR PACIENTE QUIROFANO"
+    "concentracion": "sobre esteril",
+    "forma": "N° 6  puño largo",
+    "observacion": "MAXIMO 2 POR PACIENTE"
   },
   {
     "codigo": "N0507",
@@ -585,7 +564,7 @@
     "medicamento": "Hidroclorotiazida",
     "concentracion": "50 mg",
     "forma": "Comprimido ranurado",
-    "observacion": "10 POR PACIENTE MES"
+    "observacion": "SOLO 10 POR PACIENTE MES"
   },
   {
     "codigo": "H0205",
@@ -644,46 +623,39 @@
     "observacion": ""
   },
   {
-    "codigo": "M0104",
-    "medicamento": "Ibuprofeno",
-    "concentracion": "100 mg/5 ml, (100ml)",
-    "forma": "Suspension",
-    "observacion": ""
-  },
-  {
     "codigo": "M0105",
     "medicamento": "Ibuprofeno",
     "concentracion": "400 mg",
     "forma": "Comprimido",
-    "observacion": "10 POR PACIENTE"
+    "observacion": "SOLO 15 POR PACIENTE"
   },
   {
     "codigo": "J0150",
     "medicamento": "Imipenem + Cilastatina",
     "concentracion": "500 mg + 500 mg",
     "forma": "Inyectable",
-    "observacion": "4 POR PACIENTE UTI / UCIN"
+    "observacion": "SOLO UTI Y UCIN MAX 4 UNID POR PACIENTE"
   },
   {
     "codigo": "M0107",
     "medicamento": "Indometacina",
     "concentracion": "100 mg",
     "forma": "Supositorio",
-    "observacion": "SOLO INTERNACION GINECOLOGIA"
+    "observacion": "PACIENTE GINECOLOGIA INTERNACION"
+  },
+  {
+    "codigo": "A1003",
+    "medicamento": "Insulina zinc cristalina  recombinante humana",
+    "concentracion": "100 UI/ml",
+    "forma": "Inyectable",
+    "observacion": "EMERGENCIA EXTREMA"
   },
   {
     "codigo": "A1002",
     "medicamento": "Insulina recombinante humana NPH",
     "concentracion": "100 UI/ml",
     "forma": "Inyectable",
-    "observacion": "1 CADA 2 MESES"
-  },
-  {
-    "codigo": "DJ004",
-    "medicamento": "Jeringa descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "5 ml con aguja 21 x 1 1/2\"",
-    "observacion": "MAXIMO 2 POR PACIENTE, NEONATOLOGIA Y PEDIATRIA"
+    "observacion": "1 CADA DOS MESES"
   },
   {
     "codigo": "DJ005",
@@ -693,39 +665,46 @@
     "observacion": "MAXIMO 5 POR PACIENTE"
   },
   {
+    "codigo": "DJ004",
+    "medicamento": "Jeringa descartable",
+    "concentracion": "Sobre estéril",
+    "forma": "5 ml con aguja 21 x 1 1/2\"",
+    "observacion": "MAX 2 SOLO UCIN/ NEONATOLOGIA Y PEDIATRIA"
+  },
+  {
     "codigo": "DJ006",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "20 ml con aguja 21x 1 1/2\"",
-    "observacion": "MAXIMO 2 POR PACIENTE, NEONATOLOGIA Y PEDIATRIA"
+    "observacion": "MAX 2 SOLO UCIN/ NEONATOLOGIA Y PEDIATRIA"
   },
   {
     "codigo": "DJ007",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "50 ml luer",
-    "observacion": "UCIN/NEONATOLOGIA, PEDIATRIA Y QUIROFANO"
+    "observacion": "SOLO UCIN/ NEONATOLOGIA Y PEDIATRIA"
   },
   {
     "codigo": "DJ008",
     "medicamento": "Jeringa insulina descartable",
     "concentracion": "Sobre estéril",
     "forma": "1 ml c/aguja fija",
-    "observacion": "1 POR PACIENTE UCIN, NEONATOLOGIA Y PEDIATRIA"
+    "observacion": "SOLO UCIN /NEONATOLOGIA Y PEDIATRIA"
   },
   {
     "codigo": "M0110",
     "medicamento": "Ketoprofeno",
     "concentracion": "100 mg",
     "forma": "Inyectable",
-    "observacion": "1 POR PACIENTE"
+    "observacion": "SOLO 1 POR PACIENTE"
   },
   {
     "codigo": "M0109",
     "medicamento": "Ketorolaco",
     "concentracion": "30 mg/ml",
     "forma": "Inyectable",
-    "observacion": "1 POR PACIENTE"
+    "observacion": "SOLO 1 POR PACIENTE DIA"
   },
   {
     "codigo": "A0607",
@@ -749,6 +728,13 @@
     "observacion": ""
   },
   {
+    "codigo": "J0168",
+    "medicamento": "Levofloxacina",
+    "concentracion": "500 mg",
+    "forma": "Inyectable",
+    "observacion": "EMERGENCIA EXTREMA"
+  },
+  {
     "codigo": "N0112",
     "medicamento": "Lidocaina clorhidrato sin conservante",
     "concentracion": "2%",
@@ -759,7 +745,7 @@
     "codigo": "DAC088",
     "medicamento": "Llave de 3 vías",
     "concentracion": "Sobre estéril",
-    "forma": "Con alargador 50 cm - 10cm",
+    "forma": "Con alargador",
     "observacion": ""
   },
   {
@@ -767,14 +753,14 @@
     "medicamento": "Llave de 3 vías",
     "concentracion": "Sobre estéril",
     "forma": "Sin alargador",
-    "observacion": "1 POR PACIENTE INTERNADO"
+    "observacion": "SOLO 1 POR PACIENTE INTERNADO"
   },
   {
     "codigo": "C0902",
     "medicamento": "Losartan",
     "concentracion": "50 mg",
     "forma": "Comprimido",
-    "observacion": "20 POR PACIENTE"
+    "observacion": "SOLO 20 POR PACIENTE"
   },
   {
     "codigo": "DMQ034",
@@ -833,32 +819,25 @@
     "observacion": ""
   },
   {
-    "codigo": "M0111",
-    "medicamento": "Meloxicam",
-    "concentracion": "15 mg",
-    "forma": "Comprimido",
-    "observacion": ""
-  },
-  {
     "codigo": "J0169",
     "medicamento": "Meropenem",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "2 POR PACIENTE UTI / UCIN"
+    "observacion": "SOLO UCIN  Y UTI , MAX 2 UNID POR PACIENTE"
   },
   {
     "codigo": "N0205",
     "medicamento": "Metamizol (Dipirona)",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "2 POR PACIENTE DIA"
+    "observacion": "SOLO 2 POR PACIENTE DIA"
   },
   {
     "codigo": "A1004",
     "medicamento": "Metformina",
     "concentracion": "850 mg",
     "forma": "Comprimido",
-    "observacion": "30 POR PACIENTE MES"
+    "observacion": "SOLO 30 POR PACIENTE"
   },
   {
     "codigo": "C0204",
@@ -879,7 +858,7 @@
     "medicamento": "Metoclopramida",
     "concentracion": "10mg / 2ml",
     "forma": "Inyectable",
-    "observacion": "3 POR PACIENTE DIA"
+    "observacion": ""
   },
   {
     "codigo": "L0126",
@@ -889,32 +868,25 @@
     "observacion": ""
   },
   {
-    "codigo": "G0104",
+    "codigo": "P0109",
     "medicamento": "Metronidazol",
     "concentracion": "500 mg",
-    "forma": "Ovulo",
-    "observacion": ""
+    "forma": "Comprimido",
+    "observacion": "SOLO 10 POR PACIENTE INTERNADO"
   },
   {
     "codigo": "P0107",
     "medicamento": "Metronidazol",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "2 POR PACIENTE DIA"
-  },
-  {
-    "codigo": "P0109",
-    "medicamento": "Metronidazol",
-    "concentracion": "500 mg",
-    "forma": "Comprimido",
-    "observacion": "10 POR PACIENTE INTERNADO"
+    "observacion": "SOLO EN CASO DE EXTREMA EMERGENCIA"
   },
   {
     "codigo": "DAC091",
     "medicamento": "Microgotero",
     "concentracion": "sobre esteril",
     "forma": "Con depósito rígido 150ml",
-    "observacion": "1 POR PACIENTE INTERNADO"
+    "observacion": "SOLO 1 POR INTERNACION"
   },
   {
     "codigo": "N0511",
@@ -928,7 +900,7 @@
     "medicamento": "Misoprostol",
     "concentracion": "200 mcg",
     "forma": "Comprimido",
-    "observacion": "4POR PACIENTE"
+    "observacion": "SOLO 4 POR PACIENTE"
   },
   {
     "codigo": "N0207",
@@ -952,6 +924,13 @@
     "observacion": ""
   },
   {
+    "codigo": "C0808",
+    "medicamento": "Nifedipino",
+    "concentracion": "10 mg",
+    "forma": "Comprimido o Capsula",
+    "observacion": ""
+  },
+  {
     "codigo": "D0104",
     "medicamento": "Nistatina",
     "concentracion": "100.000 UI/g, (10 g)",
@@ -963,21 +942,28 @@
     "medicamento": "Oligoelementos para nutricion parenteral",
     "concentracion": "Segun disponibilidad",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "SOLO UTI/UCIN"
+    "observacion": "SOLO UCIN Y UTI"
+  },
+  {
+    "codigo": "A0205",
+    "medicamento": "Omeprazol",
+    "concentracion": "40 mg/ml",
+    "forma": "Inyectable",
+    "observacion": "SOLO EN CASO DE EMERGENCIA"
   },
   {
     "codigo": "A0202",
     "medicamento": "Omeprazol",
     "concentracion": "20 mg",
     "forma": "Capsula",
-    "observacion": "10 POR PACIENTE"
+    "observacion": "SOLO 10 POR PACIENTE MES"
   },
   {
     "codigo": "D0202",
     "medicamento": "Oxido de Zinc con o sin aceite",
     "concentracion": "Segun disponibilidad, (30 g)",
     "forma": "Pasta o Pomada",
-    "observacion": ""
+    "observacion": "SOLO PARA PACIENTE INTERNADO"
   },
   {
     "codigo": "V0310.",
@@ -991,28 +977,14 @@
     "medicamento": "Oxitocina",
     "concentracion": "5 UI/ml o 10 UI/ml",
     "forma": "Inyectable",
-    "observacion": "1 POR PACIENTE"
-  },
-  {
-    "codigo": "N0208",
-    "medicamento": "Paracetamol (Acetaminofeno)",
-    "concentracion": "500 mg",
-    "forma": "Comprimido",
-    "observacion": ""
-  },
-  {
-    "codigo": "N0209",
-    "medicamento": "Paracetamol (Acetaminofeno)",
-    "concentracion": "120 mg/5 ml o  125 mg/5 ml, (6",
-    "forma": "Jarabe",
-    "observacion": ""
+    "observacion": "SOLO 1 POR INTERNACION"
   },
   {
     "codigo": "N0218",
     "medicamento": "Paracetamol (Acetaminofeno)",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "1 POR PACIENTE"
+    "observacion": "SOLO 1 POR PACIENTE"
   },
   {
     "codigo": "J0408",
@@ -1040,7 +1012,7 @@
     "medicamento": "Propofol",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "SOLO QUROFANO"
+    "observacion": "SOLO QUIROFANO"
   },
   {
     "codigo": "A1116",
@@ -1064,25 +1036,11 @@
     "observacion": ""
   },
   {
-    "codigo": "DSC008",
-    "medicamento": "Seda negra trenzada",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 1  10 hebras x 75 cm",
-    "observacion": ""
-  },
-  {
     "codigo": "DSC009",
     "medicamento": "Seda negra trenzada",
     "concentracion": "Sobre estéril",
     "forma": "N° 2/0 10 hebras x 75 cm",
-    "observacion": "1 POR PACIENTE"
-  },
-  {
-    "codigo": "DSC010",
-    "medicamento": "Seda negra trenzada",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 3/0 10 hebras x 75 cm",
-    "observacion": ""
+    "observacion": "SOLO 1 POR PACIENTE"
   },
   {
     "codigo": "DTO035",
@@ -1117,14 +1075,7 @@
     "medicamento": "Solucion de glucosa",
     "concentracion": "5% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "1 POR PACIENTE"
-  },
-  {
-    "codigo": "B0520",
-    "medicamento": "Solucion de glucosa",
-    "concentracion": "50% (20 ml)",
-    "forma": "Inyectable",
-    "observacion": ""
+    "observacion": "SOLO 1 POR PACIENTE DIA"
   },
   {
     "codigo": "B0521",
@@ -1138,28 +1089,21 @@
     "medicamento": "Solucion Fisiologica",
     "concentracion": "0,9% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "1 POR PACOIENTE"
+    "observacion": "SOLO 1 POR PACIENTE DIA"
   },
   {
     "codigo": "B0530",
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "UCIN, NEONATOLOGIA Y PEDIATRIA"
+    "observacion": "SOLO UCIN/NEONATOLOGIA/PEDIATRIA"
   },
   {
     "codigo": "B0532",
     "medicamento": "Solucion ringer normal",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "1 POR PACOIENTE"
-  },
-  {
-    "codigo": "B0532",
-    "medicamento": "Solucion ringer normal",
-    "concentracion": "1.000 ml",
-    "forma": "Solucion parenteral de gran vo",
-    "observacion": "1POR PACOIENTE"
+    "observacion": "SOLO 1 POR PACIENTE DIA"
   },
   {
     "codigo": "DSD011",
@@ -1239,7 +1183,7 @@
     "observacion": ""
   },
   {
-    "codigo": "DSD036",
+    "codigo": "DSD040",
     "medicamento": "Sonda nasogástrica",
     "concentracion": "Sobre estéril",
     "forma": "N° 4",
@@ -1250,7 +1194,7 @@
     "medicamento": "Sonda nasogástrica",
     "concentracion": "Sobre estéril",
     "forma": "N° 16",
-    "observacion": "1 POR PACIENTE QUIROFANO"
+    "observacion": "SOLO 1 POR PACIENTE DE QUIROFANO"
   },
   {
     "codigo": "DSD054",
@@ -1271,21 +1215,14 @@
     "medicamento": "Sulfato ferroso + Ac. Folico + Vitamina C",
     "concentracion": "200 mg + 0,5 mg + 150 mg",
     "forma": "Comprimido",
-    "observacion": "30 POR PACIENTE"
+    "observacion": "SOLO 30 POR PACIENTE"
   },
   {
     "codigo": "R0701",
     "medicamento": "Surfactante pulmonar",
     "concentracion": "25 a 35 mg/ml",
     "forma": "Inyectable",
-    "observacion": "1 POR INTERNACION"
-  },
-  {
-    "codigo": "R0701",
-    "medicamento": "Surfactante pulmonar",
-    "concentracion": "25 a 35 mg/ml",
-    "forma": "Inyectable",
-    "observacion": ""
+    "observacion": "SOLO 1 POR INTERNACION"
   },
   {
     "codigo": "DSC013",
@@ -1302,13 +1239,6 @@
     "observacion": ""
   },
   {
-    "codigo": "DSC042",
-    "medicamento": "Sutura nylon",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 2/0",
-    "observacion": "1 POR PACIENTE"
-  },
-  {
     "codigo": "DSC043",
     "medicamento": "Sutura nylon",
     "concentracion": "Sobre estéril",
@@ -1316,25 +1246,32 @@
     "observacion": "1 POR PACIENTE QUIROFANO"
   },
   {
+    "codigo": "DSC042",
+    "medicamento": "Sutura nylon",
+    "concentracion": "Sobre estéril",
+    "forma": "N° 2/0",
+    "observacion": "SOLO 1 POR PACIENTE"
+  },
+  {
     "codigo": "DSC011",
     "medicamento": "Sutura poliglactina 910",
     "concentracion": "Sobre estéril",
     "forma": "N° 1 c/aguja \"J\"",
-    "observacion": "1 POR PACIENTE"
+    "observacion": "SOLO 1 POR PACIENTE"
   },
   {
     "codigo": "DSC054",
     "medicamento": "Sutura poliglactina 910",
     "concentracion": "Sobre estéril",
     "forma": "N° 1",
-    "observacion": "1 POR PACIENTE"
+    "observacion": "SOLO 1 POR PACIENTE"
   },
   {
     "codigo": "DSC056",
     "medicamento": "Sutura poliglactina 910",
     "concentracion": "Sobre estéril",
     "forma": "N° 3/0",
-    "observacion": ""
+    "observacion": "SOLO 1 POR PACIENTE"
   },
   {
     "codigo": "DAC093",
@@ -1355,20 +1292,13 @@
     "medicamento": "Tramadol",
     "concentracion": "100 mg/2 ml",
     "forma": "Inyectable",
-    "observacion": "3 POR PACIENTE DIA"
+    "observacion": "SOLO 3 POR PACIENTE DIA"
   },
   {
     "codigo": "DTO044",
     "medicamento": "Tubo corrugado",
     "concentracion": "Sobre estéril",
     "forma": "Adulto para máquina anestesia",
-    "observacion": ""
-  },
-  {
-    "codigo": "DTO089",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 7 con balón baja presión",
     "observacion": ""
   },
   {
@@ -1379,46 +1309,11 @@
     "observacion": "1 POR PACIENTE QUIROFANO"
   },
   {
-    "codigo": "DTO091",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 8 con balón baja presión",
-    "observacion": ""
-  },
-  {
-    "codigo": "DTO093",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 2 sin balón",
-    "observacion": ""
-  },
-  {
-    "codigo": "DTO094",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 2.5 sin balón",
-    "observacion": ""
-  },
-  {
-    "codigo": "DTO095",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 3 sin balón",
-    "observacion": ""
-  },
-  {
-    "codigo": "DTO096",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 3.5 sin balón",
-    "observacion": ""
-  },
-  {
     "codigo": "DOT082",
     "medicamento": "Venda elástica",
     "concentracion": "Rollo",
     "forma": "15 cm",
-    "observacion": "2 POR PACIENTE APARTIR DE LAS 10:00PM"
+    "observacion": "SOLO EN LA NOCHE APARTIR DE LAS 10:00pm"
   },
   {
     "codigo": "J0525",
@@ -1432,13 +1327,6 @@
     "medicamento": "Zinc (como sulfato)",
     "concentracion": "20 mg/5 ml, (100 ml)",
     "forma": "Jarabe",
-    "observacion": ""
-  },
-  {
-    "codigo": "Elaborado por:",
-    "medicamento": "ZELENA CONDORY HUARAYO",
-    "concentracion": "",
-    "forma": "",
     "observacion": ""
   }
 ]
