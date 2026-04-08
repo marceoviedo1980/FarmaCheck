@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#1a5276" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Farmacia" />
+  <meta name="description" content="Buscador de Medicamentos e Insumos - Hospital Municipal La Portada" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <title>Farmacia – Buscador</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --blue-dark: #1a5276;
+      --blue-mid: #2471a3;
+      --blue-light: #d6eaf8;
+      --accent: #e74c3c;
+      --accent-light: #fdecea;
+      --text: #1c2833;
+      --text-muted: #717d7e;
+      --border: #d5dbdb;
+      --bg: #f2f3f4;
+      --white: #ffffff;
+      --radius: 12px;
+      --shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--blue-dark);
+      color: white;
+      padding: 16px 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .header-icon {
+      font-size: 26px;
+      line-height: 1;
+    }
+
+    .header-title {
+      flex: 1;
+    }
+
+    .header-title h1 {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      line-height: 1.2;
+    }
+
+    .header-title p {
+      font-size: 11px;
+      opacity: 0.75;
+      margin-top: 2px;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    /* SEARCH BAR */
+    .search-wrap {
+      background: rgba(255,255,255,0.12);
+      border-radius: var(--radius) var(--radius) 0 0;
+      padding: 12px 12px 0;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 8px;
+      padding: 0 14px;
+      gap: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .search-box svg {
+      color: var(--blue-mid);
+      flex-shrink: 0;
+    }
+
+    #searchInput {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 15px;
+      padding: 13px 0;
+      color: var(--text);
+      background: transparent;
+    }
+
+    #searchInput::placeholder { color: #aab; }
+
+    #clearBtn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 18px;
+      padding: 4px;
+      display: none;
+      line-height: 1;
+    }
+
+    /* FILTER TABS */
+    .filter-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 0 12px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .filter-tabs::-webkit-scrollbar { display: none; }
+
+    .tab {
+      background: rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.85);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 20px;
+      padding: 5px 13px;
+      font-size: 12px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .tab.active {
+      background: white;
+      color: var(--blue-dark);
+      font-weight: 600;
+      border-color: white;
+    }
+
+    /* RESULTS INFO */
+    .results-bar {
+      padding: 10px 16px;
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: 'IBM Plex Mono', monospace;
+      border-bottom: 1px solid var(--border);
+      background: white;
+    }
+
+    /* LIST */
+    #listContainer {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px 12px 80px;
+    }
+
+    /* CARD */
+    .card {
+      background: white;
+      border-radius: var(--radius);
+      margin-bottom: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      border-left: 4px solid var(--blue-mid);
+      animation: fadeIn 0.2s ease;
+    }
+
+    .card.has-obs {
+      border-left-color: var(--accent);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .card:active {
+      transform: scale(0.98);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    .card-body {
+      padding: 12px 14px;
+    }
+
+    .card-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .card-sub {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .card-obs {
+      background: var(--accent-light);
+      padding: 7px 14px;
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* EMPTY STATE */
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-icon { font-size: 48px; margin-bottom: 12px; }
+    .empty h3 { font-size: 17px; font-weight: 600; color: var(--text); }
+    .empty p { font-size: 13px; margin-top: 6px; }
+
+    /* MODAL DETAIL */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 200;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .overlay.open {
+      display: flex;
+      animation: overlayIn 0.2s ease;
+    }
+
+    @keyframes overlayIn {
+      from { background: rgba(0,0,0,0); }
+      to   { background: rgba(0,0,0,0.5); }
+    }
+
+    .modal {
+      background: white;
+      border-radius: 20px 20px 0 0;
+      width: 100%;
+      max-width: 520px;
+      max-height: 85vh;
+      overflow-y: auto;
+      animation: slideUp 0.25s ease;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(100%); }
+      to   { transform: translateY(0); }
+    }
+
+    .modal-handle {
+      width: 40px;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      margin: 12px auto 0;
+    }
+
+    .modal-header {
+      background: var(--blue-dark);
+      color: white;
+      padding: 20px 20px 18px;
+      margin-top: 8px;
+    }
+
+    .modal-header h2 {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    .modal-codigo {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      opacity: 0.75;
+      margin-top: 4px;
+    }
+
+    .modal-body {
+      padding: 16px 20px 32px;
+    }
+
+    .detail-row {
+      display: flex;
+      flex-direction: column;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .detail-row:last-child { border-bottom: none; }
+
+    .detail-label {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .detail-value {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .detail-obs .detail-value {
+      color: var(--accent);
+      background: var(--accent-light);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .modal-close {
+      display: block;
+      width: calc(100% - 40px);
+      margin: 0 20px;
+      padding: 14px;
+      background: var(--blue-dark);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    /* BOTTOM NAV */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--blue-dark);
+      font-weight: 600;
+      z-index: 50;
+    }
+
+    .bottom-nav svg { color: var(--blue-dark); }
+
+    /* HIGHLIGHT */
+    mark {
+      background: #fff176;
+      color: inherit;
+      border-radius: 2px;
+      padding: 0 1px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="header-icon">💊</div>
+    <div class="header-title">
+      <h1>Buscador de Medicamentos</h1>
+      <p>HOSPITAL MUNICIPAL LA PORTADA</p>
+    </div>
+  </div>
+  <div class="search-wrap">
+    <div class="search-box">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="searchInput" placeholder="Buscar medicamento o insumo..." autocomplete="off" autocorrect="off" spellcheck="false" />
+      <button id="clearBtn" onclick="clearSearch()">✕</button>
+    </div>
+    <div class="filter-tabs" id="filterTabs">
+      <button class="tab active" onclick="setFilter('Todos', this)">Todos</button>
+      <button class="tab" onclick="setFilter('Comprimido', this)">Comprimido</button>
+      <button class="tab" onclick="setFilter('Inyectable', this)">Inyectable</button>
+      <button class="tab" onclick="setFilter('Solución', this)">Solución</button>
+      <button class="tab" onclick="setFilter('Sobre estéril', this)">Insumos</button>
+      <button class="tab" onclick="setFilter('⚠️ Con restricción', this)">Con restricción</button>
+    </div>
+  </div>
+</header>
+
+<div class="results-bar" id="resultsBar">Cargando...</div>
+
+<div id="listContainer"></div>
+
+<div class="overlay" id="overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <div class="modal-handle"></div>
+    <div class="modal-header">
+      <h2 id="mNombre"></h2>
+      <div class="modal-codigo" id="mCodigo"></div>
+    </div>
+    <div class="modal-body" id="mBody"></div>
+    <button class="modal-close" onclick="closeModal()">Cerrar</button>
+  </div>
+</div>
+
+<div class="bottom-nav">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+  BUSCAR
+</div>
+
+<script>
+let allData = [];
+let currentFilter = 'Todos';
+let currentQuery = '';
+
+// Load data
+fetch('medicamentos.json')
+  .then(r => r.json())
+  .then(data => {
+    allData = data;
+    render();
+  })
+  .catch(() => {
+    document.getElementById('resultsBar').textContent = 'Error al cargar datos.';
+  });
+
+const input = document.getElementById('searchInput');
+const clearBtn = document.getElementById('clearBtn');
+
+input.addEventListener('input', () => {
+  currentQuery = input.value.trim();
+  clearBtn.style.display = currentQuery ? 'block' : 'none';
+  render();
+});
+
+function clearSearch() {
+  input.value = '';
+  currentQuery = '';
+  clearBtn.style.display = 'none';
+  input.focus();
+  render();
+}
+
+function setFilter(f, el) {
+  currentFilter = f;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+
+function normalize(str) {
+  return str.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+function highlight(text, query) {
+  if (!query) return text;
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(${escaped})`, 'gi');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+function render() {
+  const q = normalize(currentQuery);
+  const container = document.getElementById('listContainer');
+
+  let filtered = allData.filter(item => {
+    // Filter by forma
+    if (currentFilter === 'Todos') {
+      // no filter
+    } else if (currentFilter === '⚠️ Con restricción') {
+      if (!item.observacion) return false;
+    } else {
+      if (!normalize(item.forma).includes(normalize(currentFilter)) &&
+          !normalize(item.concentracion).includes(normalize(currentFilter))) return false;
+    }
+
+    // Filter by search
+    if (q) {
+      return normalize(item.medicamento).includes(q) ||
+             normalize(item.codigo).includes(q) ||
+             normalize(item.forma).includes(q) ||
+             normalize(item.concentracion).includes(q);
+    }
+    return true;
+  });
+
+  document.getElementById('resultsBar').textContent =
+    `${filtered.length} resultado${filtered.length !== 1 ? 's' : ''} encontrado${filtered.length !== 1 ? 's' : ''}`;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">🔍</div>
+        <h3>Sin resultados</h3>
+        <p>Intenta con otro nombre o concentración</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map((item, i) => {
+    const hasObs = !!item.observacion;
+    const nameHL = highlight(item.medicamento, currentQuery);
+    const subText = [item.forma, item.concentracion].filter(Boolean).join(' · ');
+    return `
+      <div class="card ${hasObs ? 'has-obs' : ''}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
+        <div class="card-body">
+          <div class="card-name">${nameHL}</div>
+          <div class="card-sub">${subText}</div>
+        </div>
+        ${hasObs ? `<div class="card-obs">⚠️ ${item.observacion}</div>` : ''}
+      </div>`;
+  }).join('');
+}
+
+function openModal(idx) {
+  const item = allData[idx];
+  document.getElementById('mNombre').textContent = item.medicamento;
+  document.getElementById('mCodigo').textContent = `Código: ${item.codigo}`;
+
+  let bodyHTML = `
+    <div class="detail-row">
+      <div class="detail-label">Forma Farmacéutica</div>
+      <div class="detail-value">${item.forma || '—'}</div>
+    </div>
+    <div class="detail-row">
+      <div class="detail-label">Concentración / Presentación</div>
+      <div class="detail-value">${item.concentracion || '—'}</div>
+    </div>`;
+
+  if (item.observacion) {
+    bodyHTML += `
+      <div class="detail-row detail-obs">
+        <div class="detail-label">Observación / Restricción</div>
+        <div class="detail-value">⚠️ ${item.observacion}</div>
+      </div>`;
+  }
+
+  document.getElementById('mBody').innerHTML = bodyHTML;
+  document.getElementById('overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(e) {
+  if (e && e.target !== document.getElementById('overlay')) return;
+  document.getElementById('overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Service Worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+</script>
+</body>
+</html>

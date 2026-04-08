@@ -1,0 +1,24 @@
+{
+  "name": "Buscador de Medicamentos - Hospital La Portada",
+  "short_name": "Farmacia",
+  "description": "Buscador de medicamentos e insumos del Hospital Municipal La Portada",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a5276",
+  "theme_color": "#1a5276",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
