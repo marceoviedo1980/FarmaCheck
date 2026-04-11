@@ -473,7 +473,7 @@
     "medicamento": "Fitomenadiona  (Vitamina K1)",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": ""
+    "observacion": "Maximo 2 ampollas por paciente dia"
   },
   {
     "codigo": "J0202",
@@ -879,7 +879,7 @@
     "medicamento": "Metronidazol",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "SOLO EN CASO DE EXTREMA EMERGENCIA"
+    "observacion": ""
   },
   {
     "codigo": "DAC091",
