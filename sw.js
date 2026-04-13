@@ -1,4 +1,4 @@
-const CACHE = 'farmacia-v5';
+const CACHE = 'farmacia-v6';
 const FILES = ['./index.html', './medicamentos.json', './manifest.json'];
 
 self.addEventListener('install', e => {

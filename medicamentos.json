@@ -504,13 +504,6 @@
     "observacion": "SOLO 10 POR PACIENTE MES"
   },
   {
-    "codigo": "C0305",
-    "medicamento": "Furosemida",
-    "concentracion": "10 mg/ml",
-    "forma": "Inyectable",
-    "observacion": "MAX 10 POR PACIENTE POR DIA"
-  },
-  {
     "codigo": "J0149",
     "medicamento": "Gentamicina sulfato",
     "concentracion": "80 mg",
@@ -786,7 +779,7 @@
   {
     "codigo": "DTO029",
     "medicamento": "Mascara de oxigeno pediatrica",
-    "concentracion": "Pediatrica con reservorio",
+    "concentracion": "Pediatrica",
     "forma": "Sobre esteril",
     "observacion": ""
   },
@@ -809,13 +802,6 @@
     "medicamento": "Máscara paraoxigenoterapia",
     "concentracion": "Pieza",
     "forma": "Adulto",
-    "observacion": ""
-  },
-  {
-    "codigo": "DTO027",
-    "medicamento": "Máscara paraoxigenoterapia",
-    "concentracion": "Pieza",
-    "forma": "Pediátrica",
     "observacion": ""
   },
   {
@@ -957,13 +943,6 @@
     "concentracion": "20 mg",
     "forma": "Capsula",
     "observacion": "SOLO 10 POR PACIENTE MES"
-  },
-  {
-    "codigo": "D0202",
-    "medicamento": "Oxido de Zinc con o sin aceite",
-    "concentracion": "Segun disponibilidad, (30 g)",
-    "forma": "Pasta o Pomada",
-    "observacion": "SOLO PARA PACIENTE INTERNADO"
   },
   {
     "codigo": "V0310.",
