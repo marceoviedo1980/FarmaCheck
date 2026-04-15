@@ -371,13 +371,6 @@
     "observacion": ""
   },
   {
-    "codigo": "G0103",
-    "medicamento": "Clotrimazol",
-    "concentracion": "1%, (30 g)",
-    "forma": "Crema vaginal",
-    "observacion": ""
-  },
-  {
     "codigo": "J0136",
     "medicamento": "Cloxacilina",
     "concentracion": "1 g",
@@ -452,7 +445,7 @@
     "medicamento": "Epinefrina (Adrenalina)",
     "concentracion": "1 mg/ml",
     "forma": "Inyectable",
-    "observacion": ""
+    "observacion": "Solo tres por paciente dia"
   },
   {
     "codigo": "IE003",
