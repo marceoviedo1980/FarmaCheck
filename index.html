@@ -508,7 +508,7 @@ function render() {
 
     // Filter by search
     if (q) {
-      return normalize(item.medicamento).includes(q) ||
+      return normalize(item.medicamento).startsWith(q) ||
              normalize(item.codigo).includes(q) ||
              normalize(item.forma).includes(q) ||
              normalize(item.concentracion).includes(q);
