@@ -672,13 +672,6 @@
     "observacion": ""
   },
   {
-    "codigo": "M0105",
-    "medicamento": "Ibuprofeno",
-    "concentracion": "400 mg",
-    "forma": "Comprimido",
-    "observacion": "Solo 15 por paciente"
-  },
-  {
     "codigo": "J0150",
     "medicamento": "Imipenem + Cilastatina",
     "concentracion": "500 mg + 500 mg",
@@ -810,13 +803,6 @@
     "concentracion": "50 mg",
     "forma": "Comprimido",
     "observacion": "Solo 20 por paciente mes"
-  },
-  {
-    "codigo": "DMQ034",
-    "medicamento": "Malla de polipropileno",
-    "concentracion": "Sobre estéril",
-    "forma": "15 x 15 cm",
-    "observacion": ""
   },
   {
     "codigo": "DNP002A",
