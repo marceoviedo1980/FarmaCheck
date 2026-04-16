@@ -507,12 +507,12 @@ function render() {
     }
 
     // Filter by search
-    if (q) {
-      return normalize(item.medicamento).startsWith(q) ||
-             normalize(item.codigo).includes(q) ||
-             normalize(item.forma).includes(q) ||
-             normalize(item.concentracion).includes(q);
-    }
+   if (q) {
+  return normalize(item.medicamento).startsWith(q) ||
+         normalize(item.codigo).startsWith(q) ||
+         normalize(item.forma).startsWith(q) ||
+         normalize(item.concentracion).startsWith(q);
+}
     return true;
   });
 
