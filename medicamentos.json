@@ -658,6 +658,13 @@
     "observacion": ""
   },
   {
+    "codigo": "M0105",
+    "medicamento": "Ibuprofeno",
+    "concentracion": "400 mg",
+    "forma": "Comprimido",
+    "observacion": "SOLO 15 POR PACIENTE"
+  },
+  {
     "codigo": "M0104",
     "medicamento": "Ibuprofeno",
     "concentracion": "100 mg/5 ml, (100ml)",
@@ -712,13 +719,6 @@
     "concentracion": "Sobre estéril",
     "forma": "20 ml con aguja 21x 1 1/2\"",
     "observacion": "Maximo dos solo UCIN, Neonatologia y pediatria"
-  },
-  {
-    "codigo": "DJ007",
-    "medicamento": "Jeringa descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "50 ml luer",
-    "observacion": "Solo UCIN, Neonatologia y pediatria"
   },
   {
     "codigo": "DJ008",
