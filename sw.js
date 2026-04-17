@@ -1,4 +1,4 @@
-const CACHE_NAME = 'farmacheck-v6';
+const CACHE_NAME = 'farmacheck-v7';
 
 const STATIC_ASSETS = [
   './',
