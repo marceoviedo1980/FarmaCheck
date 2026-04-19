@@ -189,13 +189,6 @@
     "observacion": ""
   },
   {
-    "codigo": "N0101",
-    "medicamento": "Bupivacaina clorhidrato",
-    "concentracion": "0,5%",
-    "forma": "Inyectable",
-    "observacion": ""
-  },
-  {
     "codigo": "N0102",
     "medicamento": "Bupivacaina clorhidrato (pesada)",
     "concentracion": "0,5%",
@@ -558,13 +551,6 @@
     "concentracion": "5 mg",
     "forma": "Comprimido",
     "observacion": "Solo 20 por paciente mes"
-  },
-  {
-    "codigo": "B0510",
-    "medicamento": "Gluconato Cálcico (Calcio Gluconato)",
-    "concentracion": "10%",
-    "forma": "Inyectable",
-    "observacion": ""
   },
   {
     "codigo": "DMQ019.",
@@ -949,13 +935,6 @@
     "medicamento": "Nevirapina",
     "concentracion": "10 mg/ml",
     "forma": "Suspension",
-    "observacion": ""
-  },
-  {
-    "codigo": "C0808",
-    "medicamento": "Nifedipino",
-    "concentracion": "10 mg",
-    "forma": "Comprimido o Capsula",
     "observacion": ""
   },
   {
