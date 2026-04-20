@@ -553,13 +553,6 @@
     "observacion": "Solo 20 por paciente mes"
   },
   {
-    "codigo": "DMQ019.",
-    "medicamento": "Guantes quirúrgicos estéril",
-    "concentracion": "sobre esteril",
-    "forma": "N° 6  puño largo",
-    "observacion": "Maximo dos por paciente"
-  },
-  {
     "codigo": "DMQ020",
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
@@ -1089,13 +1082,6 @@
     "medicamento": "Sevoflurano (Trifluorometil etil)",
     "concentracion": "250 ml",
     "forma": "Solucion",
-    "observacion": ""
-  },
-  {
-    "codigo": "C0208",
-    "medicamento": "Sildenafilo",
-    "concentracion": "50 mg",
-    "forma": "Comprimido",
     "observacion": ""
   },
   {
