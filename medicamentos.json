@@ -567,13 +567,6 @@
     "observacion": "Solo quirofano maximo dos"
   },
   {
-    "codigo": "N0507",
-    "medicamento": "Haloperidol",
-    "concentracion": "2 mg/ml, (15 ml)",
-    "forma": "Solucion oral",
-    "observacion": ""
-  },
-  {
     "codigo": "C0306",
     "medicamento": "Hidroclorotiazida",
     "concentracion": "50 mg",
@@ -599,13 +592,6 @@
     "medicamento": "Hojas de bisturí",
     "concentracion": "Sobre estéril",
     "forma": "Nº 21",
-    "observacion": ""
-  },
-  {
-    "codigo": "DMQ027",
-    "medicamento": "Hojas de bisturí",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 10",
     "observacion": ""
   },
   {
