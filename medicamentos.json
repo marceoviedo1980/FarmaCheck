@@ -396,7 +396,7 @@
     "medicamento": "Dexametasona",
     "concentracion": "4 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo tres por paciente dia"
+    "observacion": ""
   },
   {
     "codigo": "N0505",
@@ -424,7 +424,7 @@
     "medicamento": "Diclofenaco Sodico",
     "concentracion": "75 mg",
     "forma": "Inyectable",
-    "observacion": "Solo tres por paciente dia"
+    "observacion": ""
   },
   {
     "codigo": "DMQ012",
