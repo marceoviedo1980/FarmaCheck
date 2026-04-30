@@ -308,13 +308,6 @@
     "observacion": ""
   },
   {
-    "codigo": "N0306",
-    "medicamento": "Clonazepam",
-    "concentracion": "2 mg",
-    "forma": "Comprimido ranurado",
-    "observacion": ""
-  },
-  {
     "codigo": "R0601",
     "medicamento": "Clorfenamina (Clorfeniramina)",
     "concentracion": "4 mg.",
@@ -971,13 +964,6 @@
     "concentracion": "120 mg/5 ml o  125 mg/5 ml, (6",
     "forma": "Jarabe",
     "observacion": ""
-  },
-  {
-    "codigo": "N0218",
-    "medicamento": "Paracetamol (Acetaminofeno)",
-    "concentracion": "1 g",
-    "forma": "Inyectable",
-    "observacion": "Solo uno por paciente"
   },
   {
     "codigo": "J0408",
