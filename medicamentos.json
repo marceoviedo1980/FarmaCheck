@@ -1168,6 +1168,13 @@
     "forma": "N° 4",
     "observacion": ""
   },
+ {
+    "codigo": "DSD036",
+    "medicamento": "Sonda nasogástrica",
+    "concentracion": "Sobre estéril",
+    "forma": "N° 6",
+    "observacion": ""
+  },
   {
     "codigo": "DSD041",
     "medicamento": "Sonda nasogástrica",
