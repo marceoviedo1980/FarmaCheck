@@ -368,7 +368,7 @@
     "medicamento": "Complejo B (B1+B6+B12)",
     "concentracion": "Según concentración estandar",
     "forma": "Comprimido",
-    "observacion": "Solo 30 por paciente"
+    "observacion": "Solo 10 por paciente"
   },
   {
     "codigo": "DPF003",
@@ -914,7 +914,7 @@
     "medicamento": "Omeprazol",
     "concentracion": "20 mg",
     "forma": "Capsula",
-    "observacion": "Solo 10 por paciente mes"
+    "observacion": "Solo para paciente internado"
   },
   {
     "codigo": "A0205",
