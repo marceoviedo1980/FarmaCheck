@@ -11,6 +11,16 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
   <title>Farmacia – Buscador</title>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKETMXJ2CR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QKETMXJ2CR');
+  </script>
+
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
   <style>
     :root {
@@ -39,7 +49,6 @@
       flex-direction: column;
     }
 
-    /* HEADER */
     header {
       background: var(--blue-dark);
       color: white;
@@ -57,14 +66,9 @@
       margin-bottom: 14px;
     }
 
-    .header-icon {
-      font-size: 26px;
-      line-height: 1;
-    }
+    .header-icon { font-size: 26px; line-height: 1; }
 
-    .header-title {
-      flex: 1;
-    }
+    .header-title { flex: 1; }
 
     .header-title h1 {
       font-size: 17px;
@@ -80,7 +84,6 @@
       font-family: 'IBM Plex Mono', monospace;
     }
 
-    /* SEARCH BAR */
     .search-wrap {
       background: rgba(255,255,255,0.12);
       border-radius: var(--radius) var(--radius) 0 0;
@@ -97,10 +100,7 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
 
-    .search-box svg {
-      color: var(--blue-mid);
-      flex-shrink: 0;
-    }
+    .search-box svg { color: var(--blue-mid); flex-shrink: 0; }
 
     #searchInput {
       flex: 1;
@@ -126,7 +126,6 @@
       line-height: 1;
     }
 
-    /* FILTER TABS */
     .filter-tabs {
       display: flex;
       gap: 6px;
@@ -156,7 +155,6 @@
       border-color: white;
     }
 
-    /* RESULTS INFO */
     .results-bar {
       padding: 10px 16px;
       font-size: 12px;
@@ -166,14 +164,12 @@
       background: white;
     }
 
-    /* LIST */
     #listContainer {
       flex: 1;
       overflow-y: auto;
       padding: 8px 12px 80px;
     }
 
-    /* CARD */
     .card {
       background: white;
       border-radius: var(--radius);
@@ -186,9 +182,7 @@
       animation: fadeIn 0.2s ease;
     }
 
-    .card.has-obs {
-      border-left-color: var(--accent);
-    }
+    .card.has-obs { border-left-color: var(--accent); }
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(6px); }
@@ -200,9 +194,7 @@
       box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     }
 
-    .card-body {
-      padding: 12px 14px;
-    }
+    .card-body { padding: 12px 14px; }
 
     .card-name {
       font-size: 15px;
@@ -229,7 +221,6 @@
       gap: 6px;
     }
 
-    /* EMPTY STATE */
     .empty {
       text-align: center;
       padding: 60px 20px;
@@ -240,7 +231,6 @@
     .empty h3 { font-size: 17px; font-weight: 600; color: var(--text); }
     .empty p { font-size: 13px; margin-top: 6px; }
 
-    /* MODAL DETAIL */
     .overlay {
       display: none;
       position: fixed;
@@ -304,9 +294,7 @@
       margin-top: 4px;
     }
 
-    .modal-body {
-      padding: 16px 20px 32px;
-    }
+    .modal-body { padding: 16px 20px 32px; }
 
     .detail-row {
       display: flex;
@@ -348,7 +336,7 @@
     .modal-close {
       display: block;
       width: calc(100% - 40px);
-      margin: 0 20px;
+      margin: 0 20px 20px;
       padding: 14px;
       background: var(--blue-dark);
       color: white;
@@ -358,10 +346,8 @@
       font-size: 15px;
       font-weight: 600;
       cursor: pointer;
-      margin-bottom: 20px;
     }
 
-    /* BOTTOM NAV */
     .bottom-nav {
       position: fixed;
       bottom: 0;
@@ -382,7 +368,6 @@
 
     .bottom-nav svg { color: var(--blue-dark); }
 
-    /* HIGHLIGHT */
     mark {
       background: #fff176;
       color: inherit;
@@ -444,7 +429,6 @@ let allData = [];
 let currentFilter = 'Todos';
 let currentQuery = '';
 
-// Load data
 fetch('medicamentos.json')
   .then(r => r.json())
   .then(data => {
@@ -496,7 +480,6 @@ function render() {
   const container = document.getElementById('listContainer');
 
   let filtered = allData.filter(item => {
-    // Filter by forma
     if (currentFilter === 'Todos') {
       // no filter
     } else if (currentFilter === '⚠️ Con restricción') {
@@ -506,7 +489,6 @@ function render() {
           !normalize(item.concentracion).includes(normalize(currentFilter))) return false;
     }
 
-    // Filter by search
     if (q) {
       return normalize(item.medicamento).includes(q) ||
              normalize(item.codigo).includes(q) ||
@@ -578,7 +560,6 @@ function closeModal(e) {
   document.body.style.overflow = '';
 }
 
-// Service Worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
