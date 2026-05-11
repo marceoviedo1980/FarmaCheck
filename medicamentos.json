@@ -119,13 +119,6 @@
     "observacion": ""
   },
   {
-    "codigo": "J0113",
-    "medicamento": "Azitromicina",
-    "concentracion": "500 mg",
-    "forma": "Comprimido",
-    "observacion": ""
-  },
-  {
     "codigo": "D0102",
     "medicamento": "Bacitracina + Neomicina sulfato",
     "concentracion": "500 UI + 5 mg/g, (10 g)",
@@ -200,7 +193,7 @@
     "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "Solo para paciente internado"
+    "observacion": "Maximo 20 unidades por paciente"
   },
   {
     "codigo": "DAC042",
@@ -270,7 +263,7 @@
     "medicamento": "Cefotaxima",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "Solo casos de emergencia"
+    "observacion": "Se dispensa de manera normal hasta llegar a 200 unidades de stock"
   },
   {
     "codigo": "R0607",
