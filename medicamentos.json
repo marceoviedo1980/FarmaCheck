@@ -32,7 +32,7 @@
     "medicamento": "Acido Tranexamico",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo casos de emergencia"
+    "observacion": "Maximo tres ampollas por internacion"
   },
   {
     "codigo": "DAC001",
@@ -74,7 +74,7 @@
     "medicamento": "Aminoacidos",
     "concentracion": "10%",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo UCIN"
+    "observacion": "Solo UTI y UCIN"
   },
   {
     "codigo": "C0807",
@@ -326,7 +326,7 @@
     "medicamento": "Cloruro de potasio",
     "concentracion": "20%",
     "forma": "Inyectable",
-    "observacion": "Solo tres por paciente dia"
+    "observacion": ""
   },
   {
     "codigo": "B0507",
@@ -417,7 +417,7 @@
     "medicamento": "Epinefrina (Adrenalina)",
     "concentracion": "1 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo tres por paciente dia"
+    "observacion": "Solo dos por paciente dia"
   },
   {
     "codigo": "IE003",
@@ -1068,7 +1068,7 @@
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo UCIN, Neonatologia y pediatria"
+    "observacion": "Solo a una unidad a Quirofano,UTI,UCIN, Neonatologia y pediatria"
   },
   {
     "codigo": "B0532",
