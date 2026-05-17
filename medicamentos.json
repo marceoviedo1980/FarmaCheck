@@ -74,7 +74,7 @@
     "medicamento": "Aminoacidos",
     "concentracion": "10%",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo UTI y UCIN"
+    "observacion": ""
   },
   {
     "codigo": "C0807",
@@ -116,13 +116,6 @@
     "medicamento": "Atracurio besilato",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": ""
-  },
-  {
-    "codigo": "D0102",
-    "medicamento": "Bacitracina + Neomicina sulfato",
-    "concentracion": "500 UI + 5 mg/g, (10 g)",
-    "forma": "Crema o Pomada",
     "observacion": ""
   },
   {
