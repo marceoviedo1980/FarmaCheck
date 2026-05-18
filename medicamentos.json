@@ -403,7 +403,7 @@
     "medicamento": "Electrodos",
     "concentracion": "Sobre",
     "forma": "De espuma para adulto",
-    "observacion": "Solo quirofano"
+    "observacion": ""
   },
   {
     "codigo": "C0110",
@@ -424,7 +424,7 @@
     "medicamento": "Equipo de Venoclisis",
     "concentracion": "Sobre estéril",
     "forma": "Con aguja N° 21",
-    "observacion": "Solo uno por paciente cada tres dias"
+    "observacion": ""
   },
   {
     "codigo": "G0204",
@@ -466,7 +466,7 @@
     "medicamento": "Citrato de Fentanilo (Ampolla de 10 ml)",
     "concentracion": "0,05 mg/ml",
     "forma": "Inyectable (Ampolla de 10 ml)",
-    "observacion": "Solo quirofano y UCIN"
+    "observacion": "Quirofano, Ucin y Uti máximo 4 ampollas por paciente por dia"
   },
   {
     "codigo": "N0106",
@@ -1166,7 +1166,7 @@
     "medicamento": "Sonda nasogástrica",
     "concentracion": "Sobre estéril",
     "forma": "N° 16",
-    "observacion": "Solo uno para paciente de quirofano"
+    "observacion": ""
   },
   {
     "codigo": "DSD054",
@@ -1222,7 +1222,7 @@
     "medicamento": "Sutura nylon",
     "concentracion": "Sobre estéril",
     "forma": "N° 3/0",
-    "observacion": "Solo uno por paciente de quirofano"
+    "observacion": ""
   },
   {
     "codigo": "DSC011",
