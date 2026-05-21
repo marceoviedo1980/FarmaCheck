@@ -7,18 +7,11 @@
     "observacion": ""
   },
   {
-    "codigo": "J0504",
-    "medicamento": "Aciclovir",
-    "concentracion": "400 mg",
-    "forma": "Comprimido",
-    "observacion": ""
-  },
-  {
     "codigo": "B0101",
     "medicamento": "Acido acetil salicilico",
     "concentracion": "100 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 10 por paciente"
+    "observacion": ""
   },
   {
     "codigo": "A1102",
@@ -81,7 +74,7 @@
     "medicamento": "Amlodipina",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 10 por paciente"
+    "observacion": ""
   },
   {
     "codigo": "J0105",
@@ -186,7 +179,7 @@
     "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "Maximo 20 unidades por paciente"
+    "observacion": ""
   },
   {
     "codigo": "DAC042",
@@ -242,7 +235,7 @@
     "medicamento": "Catéter venoso periférico",
     "concentracion": "Sobre estéril",
     "forma": "Nº 24",
-    "observacion": "Solo uno por paciente cada tres dias"
+    "observacion": ""
   },
   {
     "codigo": "J0158",
@@ -522,7 +515,7 @@
     "medicamento": "Glibenclamida",
     "concentracion": "5 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 20 por paciente mes"
+    "observacion": "Solo 30 por paciente mes"
   },
   {
     "codigo": "DMQ020",
@@ -718,14 +711,14 @@
     "medicamento": "Llave de 3 vías",
     "concentracion": "Sobre estéril",
     "forma": "Sin alargador",
-    "observacion": "Solo uno por paciente internado"
+    "observacion": ""
   },
   {
     "codigo": "C0902",
     "medicamento": "Losartan",
     "concentracion": "50 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 20 por paciente mes"
+    "observacion": "Solo 60 por paciente mes"
   },
   {
     "codigo": "DNP002A",
@@ -788,7 +781,7 @@
     "medicamento": "Metformina",
     "concentracion": "850 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 30 por paciente mes"
+    "observacion": "Solo 60 por paciente mes"
   },
   {
     "codigo": "C0204",
@@ -844,7 +837,7 @@
     "medicamento": "Microgotero",
     "concentracion": "sobre esteril",
     "forma": "Con depósito rígido 150ml",
-    "observacion": "Solo uno por internacion"
+    "observacion": "Solo uno por dia"
   },
   {
     "codigo": "N0511",
@@ -907,7 +900,7 @@
     "medicamento": "Omeprazol",
     "concentracion": "40 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo caso de emergencia"
+    "observacion": ""
   },
   {
     "codigo": "V0310.",
