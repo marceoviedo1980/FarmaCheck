@@ -1141,10 +1141,17 @@
     "observacion": "SIN RESTRICCION"
   },
  {
-    "codigo": "DSD036",
+    "codigo": "DSD037",
     "medicamento": "Sonda nasogástrica",
     "concentracion": "Sobre estéril",
     "forma": "N° 6",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "DSD038",
+    "medicamento": "Sonda nasogástrica",
+    "concentracion": "Sobre estéril",
+    "forma": "N° 8",
     "observacion": "SIN RESTRICCION"
   },
   {
