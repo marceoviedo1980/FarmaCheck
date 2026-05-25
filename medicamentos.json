@@ -245,13 +245,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "J0122",
-    "medicamento": "Cefotaxima",
-    "concentracion": "1 g",
-    "forma": "Inyectable",
-    "observacion": "Se dispensa de manera normal hasta llegar a 100 unidades de stock"
-  },
-  {
     "codigo": "R0607",
     "medicamento": "Cetirizina",
     "concentracion": "10 mg",
