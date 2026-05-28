@@ -25,7 +25,7 @@
     "medicamento": "Acido Tranexamico",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Se dispensa normal hasta llegas a 100 unidades"
+    "observacion": "Solo para extrema emergencia"
   },
   {
     "codigo": "DAC001",
@@ -242,13 +242,6 @@
     "medicamento": "Cefixima",
     "concentracion": "400 mg",
     "forma": "Comprimido o Capsula",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "R0607",
-    "medicamento": "Cetirizina",
-    "concentracion": "10 mg",
-    "forma": "Capsula o Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -928,13 +921,6 @@
     "medicamento": "Prednisona",
     "concentracion": "20 mg",
     "forma": "Comprimido ranurado",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "N0320",
-    "medicamento": "Pregabalina",
-    "concentracion": "75 mg",
-    "forma": "Comprimido o Capsula",
     "observacion": "SIN RESTRICCION"
   },
   {
