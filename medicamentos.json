@@ -494,14 +494,14 @@
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
     "forma": "N° 6 1/2 puño largo",
-    "observacion": "Solo quirofano maximo 2"
+    "observacion": "Solo quirofano,UCIN y Pediatría maximo 2"
   },
   {
     "codigo": "DMQ021",
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
     "forma": "N° 7 puño largo",
-    "observacion": "Solo quirofano maximo 2"
+    "observacion": "Solo quirofano,UCIN y Pediatría maximo 2"
   },
   {
     "codigo": "C0306",
@@ -823,7 +823,7 @@
     "medicamento": "Misoprostol",
     "concentracion": "200 mcg",
     "forma": "Comprimido",
-    "observacion": "Solo 1 por paciente"
+    "observacion": "Solo 4 por paciente"
   },
   {
     "codigo": "N0207",
