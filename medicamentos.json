@@ -273,13 +273,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "R0601",
-    "medicamento": "Clorfenamina (Clorfeniramina)",
-    "concentracion": "4 mg.",
-    "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "R0602",
     "medicamento": "Clorfenamina (Clorfeniramina)",
     "concentracion": "2 mg./5 ml.",
@@ -572,13 +565,6 @@
     "concentracion": "500 mg + 500 mg",
     "forma": "Inyectable",
     "observacion": "Solo para UTI y UCIN maximo 4 unidades a requerimiento"
-  },
-  {
-    "codigo": "M0107",
-    "medicamento": "Indometacina",
-    "concentracion": "100 mg",
-    "forma": "Supositorio",
-    "observacion": "Solo para paciente internado en ginecologia"
   },
   {
     "codigo": "A1002",
@@ -1285,13 +1271,6 @@
     "medicamento": "Tubo endotraqueal descartable",
     "concentracion": "Sobre estéril",
     "forma": "N° 3.5 sin balón",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "DOT082",
-    "medicamento": "Venda elástica",
-    "concentracion": "Rollo",
-    "forma": "15 cm",
     "observacion": "SIN RESTRICCION"
   },
   {
