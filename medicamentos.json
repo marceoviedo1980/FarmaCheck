@@ -329,13 +329,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "N0505",
-    "medicamento": "Diazepam",
-    "concentracion": "10 mg",
-    "forma": "Inyectable",
-    "observacion": "Solo en caso de emergencia"
-  },
-  {
     "codigo": "M0101",
     "medicamento": "Diclofenaco Sodico",
     "concentracion": "1%, (20 g)",
