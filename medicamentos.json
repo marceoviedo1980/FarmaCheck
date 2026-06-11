@@ -406,13 +406,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "N0307",
-    "medicamento": "Fenitoina",
-    "concentracion": "50 mg/ml",
-    "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "N0105",
     "medicamento": "Citrato de Fentanilo (Ampolla de 10 ml)",
     "concentracion": "0,05 mg/ml",
