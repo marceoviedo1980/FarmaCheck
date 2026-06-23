@@ -308,13 +308,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "A1106",
-    "medicamento": "Complejo B (B1+B6+B12)",
-    "concentracion": "Según concentración estandar",
-    "forma": "Comprimido",
-    "observacion": "Solo 30 comprimidos por paciente"
-  },
-  {
     "codigo": "DPF003",
     "medicamento": "Condón Masculino",
     "concentracion": "Sobre estéril",
