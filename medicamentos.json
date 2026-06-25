@@ -448,13 +448,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "C0304",
-    "medicamento": "Furosemida",
-    "concentracion": "40 mg",
-    "forma": "Comprimido ranurado",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "A1001",
     "medicamento": "Glibenclamida",
     "concentracion": "5 mg",
