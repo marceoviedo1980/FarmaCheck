@@ -756,13 +756,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "P0109",
-    "medicamento": "Metronidazol",
-    "concentracion": "500 mg",
-    "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "DAC091",
     "medicamento": "Microgotero",
     "concentracion": "sobre esteril",

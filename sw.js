@@ -1,4 +1,4 @@
-const CACHE = 'farmacia-v33';
+const CACHE = 'farmacia-v35';
 const FILES = ['./index.html', './medicamentos.json', './manifest.json'];
 
 self.addEventListener('install', e => {
@@ -14,6 +14,8 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET') return;
+
   e.respondWith(
     fetch(e.request)
       .then(res => {
