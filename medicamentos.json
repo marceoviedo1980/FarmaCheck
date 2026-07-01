@@ -644,13 +644,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "C0902",
-    "medicamento": "Losartan",
-    "concentracion": "50 mg",
-    "forma": "Comprimido",
-    "observacion": "Solo 60 por paciente cada mes"
-  },
-  {
     "codigo": "DNP002A",
     "medicamento": "Manilla de identificación de recién nacido",
     "concentracion": "Pieza",
