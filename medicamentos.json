@@ -536,7 +536,7 @@
     "medicamento": "Insulina recombinante humana NPH",
     "concentracion": "100 UI/ml",
     "forma": "Inyectable",
-    "observacion": "Solo 1 cada 2 meses"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "A1003",
@@ -697,7 +697,7 @@
     "medicamento": "Metformina",
     "concentracion": "850 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 60 por paciente cada mes"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "C0204",
