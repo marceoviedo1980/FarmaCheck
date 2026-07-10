@@ -1085,13 +1085,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "B0308",
-    "medicamento": "Sulfato ferroso + Ac. Folico + Vitamina C",
-    "concentracion": "200 mg + 0,5 mg + 150 mg",
-    "forma": "Comprimido",
-    "observacion": "Solo 60 comprimidos por paciente"
-  },
-  {
     "codigo": "R0701",
     "medicamento": "Surfactante pulmonar",
     "concentracion": "25 a 35 mg/ml",
