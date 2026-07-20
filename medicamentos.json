@@ -91,13 +91,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "J0112",
-    "medicamento": "Ampicilina",
-    "concentracion": "1 g",
-    "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "C1001",
     "medicamento": "Atorvastatina",
     "concentracion": "10 mg",
@@ -453,13 +446,6 @@
     "concentracion": "Sobre estéril",
     "forma": "N° 7 puño largo",
     "observacion": "Solo quirofano maximo 2"
-  },
-  {
-    "codigo": "C0306",
-    "medicamento": "Hidroclorotiazida",
-    "concentracion": "50 mg",
-    "forma": "Comprimido ranurado",
-    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "H0205",
