@@ -112,13 +112,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "DTO004",
-    "medicamento": "Bigotera para oxígeno",
-    "concentracion": "Pieza",
-    "forma": "Siliconado (neonatal)",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "DTO003",
     "medicamento": "Bigotera para oxígeno (Adulto)",
     "concentracion": "Pieza",
@@ -630,8 +623,8 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "DTO029",
-    "medicamento": "Mascara de oxigeno pediatrica",
+    "codigo": "DTO027",
+    "medicamento": "Mascara para oxigenoterapia pediatrica",
     "concentracion": "Pediatrica",
     "forma": "Sobre esteril",
     "observacion": "SIN RESTRICCION"
@@ -760,13 +753,6 @@
     "medicamento": "Nevirapina",
     "concentracion": "10 mg/ml",
     "forma": "Suspension",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "D0104",
-    "medicamento": "Nistatina",
-    "concentracion": "100.000 UI/g, (10 g)",
-    "forma": "Crema o Pomada",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -900,14 +886,7 @@
     "medicamento": "Solucion de glucosa",
     "concentracion": "5% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 por paciente dia"
-  },
-  {
-    "codigo": "B0520",
-    "medicamento": "Solucion de glucosa",
-    "concentracion": "50% (20 ml)",
-    "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo UCIN, pediatría, Neonatología, 1 por internación"
   },
   {
     "codigo": "B0521",
@@ -921,7 +900,7 @@
     "medicamento": "Solucion Fisiologica",
     "concentracion": "0,9% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 por paciente dia"
+    "observacion": "Solo 1 fco día por medio por paciente"
   },
   {
     "codigo": "B0530",
@@ -934,8 +913,8 @@
     "codigo": "B0532",
     "medicamento": "Solucion ringer normal",
     "concentracion": "1.000 ml",
-    "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 por paciente dia"
+    "forma": "Solución parenteral de gran vo" ,
+    "observacion": "Solo 1 fco día por medio por paciente"
   },
   {
     "codigo": "DSD011",
