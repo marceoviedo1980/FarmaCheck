@@ -294,13 +294,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "M0101",
-    "medicamento": "Diclofenaco Sodico",
-    "concentracion": "1%, (20 g)",
-    "forma": "Pomada o Gel",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "M0102",
     "medicamento": "Diclofenaco Sodico",
     "concentracion": "50 mg",
@@ -1026,13 +1019,6 @@
     "medicamento": "Sonda rectal",
     "concentracion": "Sobre estéril",
     "forma": "N° 32",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "B0533",
-    "medicamento": "Sulfato de Magnesio",
-    "concentracion": "10%",
-    "forma": "Inyectable",
     "observacion": "SIN RESTRICCION"
   },
   {
