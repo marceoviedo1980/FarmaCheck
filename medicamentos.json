@@ -893,21 +893,21 @@
     "medicamento": "Solucion Fisiologica",
     "concentracion": "0,9% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 fco día por medio por paciente"
+    "observacion": "Solo 1 fco por paciente solo para Servicio de Emergencias"
   },
   {
     "codigo": "B0530",
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 unidad por paciente a Quirofano,UTI,UCIN, Neonatologia y pediatria"
+    "observacion": "Solo 1 fco por paciente solo para Servicio de Emergencias"
   },
   {
     "codigo": "B0532",
     "medicamento": "Solucion ringer normal",
     "concentracion": "1.000 ml",
     "forma": "Solución parenteral de gran vo" ,
-    "observacion": "Solo 1 fco día por medio por paciente"
+    "observacion": "Solo 1 fco por paciente solo para Servicio de Emergencias"
   },
   {
     "codigo": "DSD011",
