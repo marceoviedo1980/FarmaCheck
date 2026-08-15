@@ -105,6 +105,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "J0113",
+    "medicamento": "Azitromicina",
+    "concentracion": "500 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "B0504",
     "medicamento": "Bicarbonato de sodio",
     "concentracion": "8%",
@@ -137,13 +144,6 @@
     "medicamento": "Bolsa colectora de orina",
     "concentracion": "Bolsa estéril",
     "forma": "2000 ml. con válvula antirrefl",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "DAC029",
-    "medicamento": "Bolsa de Transfusión",
-    "concentracion": "Sobre estéril",
-    "forma": "Sobre estéril",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -231,6 +231,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "J0163",
+    "medicamento": "Cefixima",
+    "concentracion": "100 mg/5ml",
+    "forma": "Suspension",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "J0127",
     "medicamento": "Ciprofloxacina",
     "concentracion": "500 mg",
@@ -249,6 +256,13 @@
     "medicamento": "Clamp umbilical  con doble broche de seguridad",
     "concentracion": "Pieza",
     "forma": "Sobre esteril",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "R0601",
+    "medicamento": "Clorfeniramina (Clofenamina)",
+    "concentracion": "4 mg",
+    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -294,6 +308,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "M0101",
+    "medicamento": "Diclofenaco",
+    "concentracion": "1%",
+    "forma": "Pomada o Gel",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "M0102",
     "medicamento": "Diclofenaco Sodico",
     "concentracion": "50 mg",
@@ -305,6 +326,13 @@
     "medicamento": "Diclofenaco Sodico",
     "concentracion": "75 mg",
     "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "J0141",
+    "medicamento": "Dicloxacilina sodica",
+    "concentracion": "500 mg",
+    "forma": "Capsula",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -497,6 +525,13 @@
     "observacion": "Solo para UTI y UCIN maximo 4 unidades a requerimiento"
   },
   {
+    "codigo": "M0107",
+    "medicamento": "Indometacina",
+    "concentracion": "100 mg",
+    "forma": "Supositorio",
+    "observacion": "Solo para paciente internado"
+  },
+  {
     "codigo": "A1002",
     "medicamento": "Insulina recombinante humana NPH",
     "concentracion": "100 UI/ml",
@@ -602,6 +637,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "C0902",
+    "medicamento": "Losartan",
+    "concentracion": "50 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "DNP002A",
     "medicamento": "Manilla de identificación de recién nacido",
     "concentracion": "Pieza",
@@ -644,6 +686,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "M0111",
+    "medicamento": "Meloxicam",
+    "concentracion": "15 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "J0169",
     "medicamento": "Meropenem",
     "concentracion": "500 mg",
@@ -683,6 +732,13 @@
     "medicamento": "Metoclopramida",
     "concentracion": "10mg / 2ml",
     "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "P0109",
+    "medicamento": "Metronidazol",
+    "concentracion": "500 mg",
+    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -760,13 +816,13 @@
     "medicamento": "Omeprazol",
     "concentracion": "20 mg",
     "forma": "Capsula",
-    "observacion": "Solo para paciente internado"
+    "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "A0205",
-    "medicamento": "Omeprazol",
-    "concentracion": "40 mg/ml",
-    "forma": "Inyectable",
+    "codigo": "D0202",
+    "medicamento": "Oxido de Zinc",
+    "concentracion": "con o sin aceite",
+    "forma": "pasta o pomada",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -791,6 +847,20 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "N0209",
+    "medicamento": "Paracetamol",
+    "concentracion": "125 mg/5ml o 120 mg/5ml",
+    "forma": "Jarabe",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "N0210",
+    "medicamento": "Paracetamol",
+    "concentracion": "100 mg/ml",
+    "forma": "Gotas",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "J0408",
     "medicamento": "Pirazinamida",
     "concentracion": "500 mg",
@@ -802,6 +872,13 @@
     "medicamento": "Prednisona",
     "concentracion": "20 mg",
     "forma": "Comprimido ranurado",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "N0320",
+    "medicamento": "Pregabalina",
+    "concentracion": "75 mg",
+    "forma": "Comprimido o Capsula",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -977,13 +1054,6 @@
     "medicamento": "Sonda Foley",
     "concentracion": "Sobre estéril",
     "forma": "N° 16 Siliconizada 2 vías",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "DSD027",
-    "medicamento": "Sonda Foley",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 18 Siliconizada 2 vías",
     "observacion": "SIN RESTRICCION"
   },
   {
