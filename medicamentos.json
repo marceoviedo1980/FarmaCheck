@@ -641,7 +641,7 @@
     "medicamento": "Losartan",
     "concentracion": "50 mg",
     "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 30 comprimidos por paciente"
   },
   {
     "codigo": "DNP002A",
@@ -690,7 +690,7 @@
     "medicamento": "Meloxicam",
     "concentracion": "15 mg",
     "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 30 comprimidos por paciente"
   },
   {
     "codigo": "J0169",
@@ -816,7 +816,7 @@
     "medicamento": "Omeprazol",
     "concentracion": "20 mg",
     "forma": "Capsula",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo a 30 capsulas por paciente"
   },
   {
     "codigo": "D0202",
@@ -879,7 +879,7 @@
     "medicamento": "Pregabalina",
     "concentracion": "75 mg",
     "forma": "Comprimido o Capsula",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 10 comprimidos por paciente"
   },
   {
     "codigo": "N0113",
