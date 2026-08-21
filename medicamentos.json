@@ -154,6 +154,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "DAC029",
+    "medicamento": "Bolsa de transfusion",
+    "concentracion": "Sobre estéril",
+    "forma": "Sobre esteril",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "N0102",
     "medicamento": "Bupivacaina clorhidrato (pesada)",
     "concentracion": "0,5%",
@@ -385,13 +392,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "B0203",
-    "medicamento": "Etamsilato",
-    "concentracion": "250 mg/2 ml",
-    "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "N0105",
     "medicamento": "Citrato de Fentanilo (Ampolla de 10 ml)",
     "concentracion": "0,05 mg/ml",
@@ -438,13 +438,6 @@
     "medicamento": "Frascos de plástico de 100 ml",
     "concentracion": "Pieza",
     "forma": "Con tapa rosca estéril",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "A1001",
-    "medicamento": "Glibenclamida",
-    "concentracion": "5 mg",
-    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -544,13 +537,6 @@
     "concentracion": "100 UI/ml",
     "forma": "Inyectable",
     "observacion": "Solo casos de emergencia extrema"
-  },
-  {
-    "codigo": "DJ004",
-    "medicamento": "Jeringa descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "5 ml con aguja 21 x 1 1/2\"",
-    "observacion": "Maximo 2 solo UCIN, Neonatologia y pediatria"
   },
   {
     "codigo": "DJ005",
