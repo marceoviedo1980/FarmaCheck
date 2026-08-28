@@ -728,13 +728,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "L0126",
-    "medicamento": "Metotrexato",
-    "concentracion": "2,5 mg",
-    "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "G0104",
     "medicamento": "Metronidazol",
     "concentracion": "500 mg",
