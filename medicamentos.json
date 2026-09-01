@@ -119,13 +119,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "DTO003",
-    "medicamento": "Bigotera para oxígeno (Adulto)",
-    "concentracion": "Pieza",
-    "forma": "Siliconado (adulto)",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "DTO005",
     "medicamento": "Bigotera para oxígeno (Pediatrico)",
     "concentracion": "Pieza",
