@@ -63,6 +63,13 @@
     "observacion": "Solo UCIN"
   },
   {
+    "codigo": "J0104",
+    "medicamento": "Amikacina",
+    "concentracion": "500 mg/2 ml",
+    "forma": "Inyectable",
+    "observacion": "Maximo 2 solo UCIN, Neonatologia y pediatria"
+  },
+  {
     "codigo": "B0503",
     "medicamento": "Aminoacidos",
     "concentracion": "10%",
@@ -238,6 +245,27 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "J0121",
+    "medicamento": "Cefazolina",
+    "concentracion": "1 g",
+    "forma": "Inyectable",
+    "observacion": "Solo UCIN, Neonatologia y pediatria"
+  },
+  {
+    "codigo": "J0126",
+    "medicamento": "Ceftriaxona",
+    "concentracion": "1 g",
+    "forma": "Inyectable",
+    "observacion": "Solo UCIN, Neonatologia y pediatria"
+  },
+  {
+    "codigo": "R607",
+    "medicamento": "Cetirizina",
+    "concentracion": "10 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "J0127",
     "medicamento": "Ciprofloxacina",
     "concentracion": "500 mg",
@@ -257,6 +285,13 @@
     "concentracion": "Pieza",
     "forma": "Sobre esteril",
     "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "J0164",
+    "medicamento": "Clindamicina",
+    "concentracion": "600 mg",
+    "forma": "Inyectable",
+    "observacion": "Solo UCIN, Neonatologia y pediatria"
   },
   {
     "codigo": "R0601",
@@ -292,6 +327,13 @@
     "concentracion": "1 g",
     "forma": "Inyectable",
     "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "A1106",
+    "medicamento": "Complejo B",
+    "concentracion": "Segun concentracion estandar",
+    "forma": "Comprimido o Capsula",
+    "observacion": "Maximo solo 10 por paciente"
   },
   {
     "codigo": "DPF003",
@@ -368,6 +410,13 @@
     "medicamento": "Ergometrina maleato",
     "concentracion": "0,2 mg/ml",
     "forma": "Inyectable",
+    "observacion": "MAXIMO 2 ampollas por paciente dia"
+  },
+  {
+    "codigo": "G0203",
+    "medicamento": "Ergometrina maleato",
+    "concentracion": "0,2 mg",
+    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -431,6 +480,13 @@
     "medicamento": "Frascos de plástico de 100 ml",
     "concentracion": "Pieza",
     "forma": "Con tapa rosca estéril",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "C0304",
+    "medicamento": "Furosemida",
+    "concentracion": "40 mg",
+    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -1187,13 +1243,6 @@
     "medicamento": "Tubo endotraqueal descartable",
     "concentracion": "Sobre estéril",
     "forma": "N° 3 sin balón",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "DTO096",
-    "medicamento": "Tubo endotraqueal descartable",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 3.5 sin balón",
     "observacion": "SIN RESTRICCION"
   },
   {
