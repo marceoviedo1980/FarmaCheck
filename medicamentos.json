@@ -77,13 +77,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "C0807",
-    "medicamento": "Amlodipina",
-    "concentracion": "10 mg",
-    "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "J0105",
     "medicamento": "Amoxicilina",
     "concentracion": "1 g",
