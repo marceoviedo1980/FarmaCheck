@@ -256,7 +256,7 @@
     "medicamento": "Cetirizina",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 10 comprimidos por paciente"
   },
   {
     "codigo": "J0127",
@@ -291,7 +291,7 @@
     "medicamento": "Clorfeniramina (Clofenamina)",
     "concentracion": "4 mg",
     "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 10 comprimidos por paciente"
   },
   {
     "codigo": "B0506",
