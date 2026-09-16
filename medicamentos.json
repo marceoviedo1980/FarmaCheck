@@ -25,7 +25,7 @@
     "medicamento": "Acido Tranexamico",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo Quirófano max 2 ampollas"
+    "observacion": "Solo Quirófano y UTI max 2 ampollas"
   },
   {
     "codigo": "DAC001",
@@ -245,6 +245,13 @@
     "observacion": "Solo UCIN, Neonatologia y pediatria"
   },
   {
+    "codigo": "J0122",
+    "medicamento": "Cefotaxima",
+    "concentracion": "1 g",
+    "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "J0126",
     "medicamento": "Ceftriaxona",
     "concentracion": "1 g",
@@ -305,7 +312,7 @@
     "medicamento": "Cloruro de sodio",
     "concentracion": "20%",
     "forma": "Inyectable",
-    "observacion": "Solo para Servicio de emergencias"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "G0102",
@@ -339,6 +346,13 @@
     "codigo": "H0204",
     "medicamento": "Dexametasona",
     "concentracion": "4 mg/ml",
+    "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "N0505",
+    "medicamento": "Diazepam",
+    "concentracion": "10 mg",
     "forma": "Inyectable",
     "observacion": "SIN RESTRICCION"
   },
@@ -483,6 +497,27 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "C0305",
+    "medicamento": "Furosemida",
+    "concentracion": "10 mg/ml",
+    "forma": "Inyectable",
+    "observacion": "MAXIMO 3 ampollas por paciente dia"
+  },
+  {
+    "codigo": "A1001",
+    "medicamento": "Glibenclamida",
+    "concentracion": "5 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "B0510",
+    "medicamento": "Gluconato de calcio",
+    "concentracion": "10%",
+    "forma": "Inyectable",
+    "observacion": "MAXIMO 3 ampollas por paciente dia"
+  },
+  {
     "codigo": "DMQ020",
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
@@ -501,6 +536,13 @@
     "medicamento": "Hidrocortisona succinato sodico",
     "concentracion": "100 mg",
     "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "C0301",
+    "medicamento": "Hidroclotoriazida",
+    "concentracion": "50 mg",
+    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -592,14 +634,21 @@
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "20 ml con aguja 21x 1 1/2\"",
-    "observacion": "Maximo 2 solo UCIN, Neonatologia y pediatria"
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "DJ007",
+    "medicamento": "Jeringa descartable",
+    "concentracion": "Sobre estéril",
+    "forma": "50 ml",
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DJ008",
     "medicamento": "Jeringa insulina descartable",
     "concentracion": "Sobre estéril",
     "forma": "1 ml c/aguja fija",
-    "observacion": "Solo UCIN, Neonatologia y pediatria"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "M0110",
@@ -788,7 +837,7 @@
     "medicamento": "Microgotero",
     "concentracion": "sobre esteril",
     "forma": "Con depósito rígido 150ml",
-    "observacion": "Solo uno por dia"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "N0511",
@@ -826,18 +875,18 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "B0511",
-    "medicamento": "Oligoelementos para nutricion parenteral",
-    "concentracion": "Segun disponibilidad",
-    "forma": "Solucion parenteral de gran vo",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "A0202",
     "medicamento": "Omeprazol",
     "concentracion": "20 mg",
     "forma": "Capsula",
     "observacion": "Solo a 30 capsulas por paciente"
+  },
+  {
+    "codigo": "A0203",
+    "medicamento": "Omeprazol",
+    "concentracion": "40 mg",
+    "forma": "Inyectable",
+    "observacion": "MAXIMO 2 inyectables por paciente dia"
   },
   {
     "codigo": "D0202",
@@ -858,7 +907,7 @@
     "medicamento": "Oxitocina",
     "concentracion": "5 UI/ml o 10 UI/ml",
     "forma": "Inyectable",
-    "observacion": "Solo 1 ampolla por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "N0208",
@@ -976,6 +1025,13 @@
     "codigo": "B0516",
     "medicamento": "Solucion de glucosa",
     "concentracion": "5% (1.000 ml)",
+    "forma": "Solucion parenteral de gran vo",
+    "observacion": "Solo UCIN, pediatría, Neonatología, 1 por internación"
+  },
+  {
+    "codigo": "B0518",
+    "medicamento": "Solucion de glucosa",
+    "concentracion": "10% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
     "observacion": "Solo UCIN, pediatría, Neonatología, 1 por internación"
   },
