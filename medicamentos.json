@@ -70,13 +70,6 @@
     "observacion": "Maximo 2 solo UCIN, Neonatologia y pediatria"
   },
   {
-    "codigo": "B0503",
-    "medicamento": "Aminoacidos",
-    "concentracion": "10%",
-    "forma": "Solucion parenteral de gran vo",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "J0105",
     "medicamento": "Amoxicilina",
     "concentracion": "1 g",
@@ -616,13 +609,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "A1003",
-    "medicamento": "Insulina zinc cristalina  recombinante humana",
-    "concentracion": "100 UI/ml",
-    "forma": "Inyectable",
-    "observacion": "Solo casos de emergencia extrema"
-  },
-  {
     "codigo": "DJ005",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
@@ -956,7 +942,7 @@
     "medicamento": "Propofol",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo quirofano"
+    "observacion": "Solo quirofano, 1 ampolla por paciente día"
   },
   {
     "codigo": "A1116",
