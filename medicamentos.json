@@ -620,21 +620,21 @@
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "20 ml con aguja 21x 1 1/2\"",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "maximo 5 unidades por paciente"
   },
   {
     "codigo": "DJ007",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "50 ml",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "solo UTI, UCIN, PEDIATRIA MAXIMO 2 POR PACIENTE DIA"
   },
   {
     "codigo": "DJ008",
     "medicamento": "Jeringa insulina descartable",
     "concentracion": "Sobre estéril",
     "forma": "1 ml c/aguja fija",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Maximo 5 por dia por paciente"
   },
   {
     "codigo": "M0110",
@@ -870,7 +870,7 @@
   {
     "codigo": "A0203",
     "medicamento": "Omeprazol",
-    "concentracion": "40 mg",
+    "concentracion": "40 mg/ml",
     "forma": "Inyectable",
     "observacion": "MAXIMO 2 inyectables por paciente dia"
   },
