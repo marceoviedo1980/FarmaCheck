@@ -445,7 +445,7 @@
     "medicamento": "Citrato de Fentanilo (Ampolla de 2 ml)",
     "concentracion": "0,05 mg/ml",
     "forma": "Inyectable (Ampolla de 2 ml)",
-    "observacion": "Solo quirofano"
+    "observacion": "Solo quirofano y UCIN uno por dia"
   },
   {
     "codigo": "DOT035",
@@ -459,7 +459,7 @@
     "medicamento": "Fitomenadiona  (Vitamina K1)",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "MAXIMO 2 ampollas por paciente dia"
+    "observacion": "SIN RESTRICCIÓN"
   },
   {
     "codigo": "J0202",
@@ -634,7 +634,7 @@
     "medicamento": "Jeringa insulina descartable",
     "concentracion": "Sobre estéril",
     "forma": "1 ml c/aguja fija",
-    "observacion": "Maximo 5 por dia por paciente"
+    "observacion": "Maximo 10 por dia por paciente"
   },
   {
     "codigo": "M0110",
