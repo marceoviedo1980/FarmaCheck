@@ -119,6 +119,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "DTO003",
+    "medicamento": "Bigotera para oxígeno (Adulto)",
+    "concentracion": "Pieza",
+    "forma": "Siliconado (pediátrico)",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "DTO005",
     "medicamento": "Bigotera para oxígeno (Pediatrico)",
     "concentracion": "Pieza",
@@ -306,6 +313,13 @@
     "concentracion": "4 mg",
     "forma": "Comprimido",
     "observacion": "Solo 10 comprimidos por paciente"
+  },
+  {
+    "codigo": "R0603",
+    "medicamento": "Clorfeniramina (Clofenamina)",
+    "concentracion": "10 mg/ml",
+    "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "B0506",
@@ -630,6 +644,20 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "DJ003",
+    "medicamento": "Jeringa descartable",
+    "concentracion": "Sobre estéril",
+    "forma": "3 ml con aguja 21 x 1 1/2\"",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "DJ004",
+    "medicamento": "Jeringa descartable",
+    "concentracion": "Sobre estéril",
+    "forma": "5 ml con aguja 21 x 1 1/2\"",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "DJ005",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
@@ -819,6 +847,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "L0126",
+    "medicamento": "Metotrexato",
+    "concentracion": "2.5 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "P0109",
     "medicamento": "Metronidazol",
     "concentracion": "500 mg",
@@ -879,6 +914,13 @@
     "medicamento": "Nevirapina",
     "concentracion": "10 mg/ml",
     "forma": "Suspension",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "C0808",
+    "medicamento": "Nifedipino",
+    "concentracion": "10 mg",
+    "forma": "Comprimido o Capsula",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -977,6 +1019,13 @@
     "medicamento": "Rifampicina + Isoniazida (INH)",
     "concentracion": "150 mg + 75 mg",
     "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "R0306",
+    "medicamento": "Salbutamol",
+    "concentracion": "0,1 mg/inhalacion",
+    "forma": "Aerosol",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -1299,6 +1348,13 @@
     "medicamento": "Tubo endotraqueal descartable",
     "concentracion": "Sobre estéril",
     "forma": "N° 3 sin balón",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "J0155",
+    "medicamento": "Vancomicina",
+    "concentracion": "500 mg",
+    "forma": "Inyectable",
     "observacion": "SIN RESTRICCION"
   },
   {
