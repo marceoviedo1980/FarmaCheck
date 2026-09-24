@@ -70,6 +70,13 @@
     "observacion": "Maximo 2 solo UCIN, Neonatologia y pediatria"
   },
   {
+    "codigo": "C0807",
+    "medicamento": "Amlodipino",
+    "concentracion": "10 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "J0105",
     "medicamento": "Amoxicilina",
     "concentracion": "1 g",
@@ -158,6 +165,13 @@
     "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
     "concentracion": "10 mg",
     "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "A0304",
+    "medicamento": "Butilbromuro de Hioscina (Butilescopolamina)",
+    "concentracion": "20 mg/ml",
+    "forma": "Inyectable",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -329,6 +343,13 @@
     "observacion": "Maximo solo 10 por paciente"
   },
   {
+    "codigo": "A1107",
+    "medicamento": "Complejo B",
+    "concentracion": "Segun concentracion estandar",
+    "forma": "Inyectable",
+    "observacion": "Maximo solo 2 por paciente"
+  },
+  {
     "codigo": "DPF003",
     "medicamento": "Condón Masculino",
     "concentracion": "Sobre estéril",
@@ -438,14 +459,14 @@
     "medicamento": "Citrato de Fentanilo (Ampolla de 10 ml)",
     "concentracion": "0,05 mg/ml",
     "forma": "Inyectable (Ampolla de 10 ml)",
-    "observacion": "Solo Quirofano"
+    "observacion": "Solo quirofano y UCIN uno por dia"
   },
   {
     "codigo": "N0106",
     "medicamento": "Citrato de Fentanilo (Ampolla de 2 ml)",
     "concentracion": "0,05 mg/ml",
     "forma": "Inyectable (Ampolla de 2 ml)",
-    "observacion": "Solo quirofano y UCIN uno por dia"
+    "observacion": "Solo Quirofano"
   },
   {
     "codigo": "DOT035",
@@ -1147,6 +1168,13 @@
     "forma": "N° 32",
     "observacion": "SIN RESTRICCION"
   },
+  {
+    "codigo": "B0308",
+    "medicamento": "Sulfato ferroso + Acido fólico + Vitamina C",
+    "concentracion": "200 mg + 0.5 mg + 150 mg",
+    "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },  
   {
     "codigo": "R0701",
     "medicamento": "Surfactante pulmonar",
