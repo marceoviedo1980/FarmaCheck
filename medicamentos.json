@@ -25,7 +25,7 @@
     "medicamento": "Acido Tranexamico",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo Quirófano y UTI max 2 ampollas"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DAC001",
@@ -256,7 +256,7 @@
     "medicamento": "Cefazolina",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "Solo UCIN, Neonatologia y pediatria"
+    "observacion": "Solo 2 viales por paciente dia"
   },
   {
     "codigo": "J0122",
@@ -361,7 +361,7 @@
     "medicamento": "Complejo B",
     "concentracion": "Segun concentracion estandar",
     "forma": "Inyectable",
-    "observacion": "Maximo solo 2 por paciente"
+    "observacion": "SIN RESTRICCIÓN"
   },
   {
     "codigo": "DPF003",
@@ -1047,7 +1047,7 @@
     "medicamento": "Seda negra trenzada",
     "concentracion": "Sobre estéril",
     "forma": "N° 2/0 10 hebras x 75 cm",
-    "observacion": "Solo 1 por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DSC010",
@@ -1222,7 +1222,7 @@
     "medicamento": "Sulfato ferroso + Acido fólico + Vitamina C",
     "concentracion": "200 mg + 0.5 mg + 150 mg",
     "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 30 comprimidos por paciente"
   },  
   {
     "codigo": "R0701",
@@ -1250,7 +1250,7 @@
     "medicamento": "Sutura nylon",
     "concentracion": "Sobre estéril",
     "forma": "N° 2/0",
-    "observacion": "Solo 1 por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DSC043",
@@ -1271,14 +1271,14 @@
     "medicamento": "Sutura poliglactina 910",
     "concentracion": "Sobre estéril",
     "forma": "N° 1",
-    "observacion": "Solo 1 por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DSC056",
     "medicamento": "Sutura poliglactina 910",
     "concentracion": "Sobre estéril",
     "forma": "N° 3/0",
-    "observacion": "Solo 1 por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DAC093",
@@ -1320,7 +1320,7 @@
     "medicamento": "Tubo endotraqueal descartable",
     "concentracion": "Sobre estéril",
     "forma": "N° 7.5 con balón baja presión",
-    "observacion": "Solo 1 por paciente de Quirofano"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DTO091",
