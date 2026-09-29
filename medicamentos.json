@@ -627,7 +627,7 @@
     "medicamento": "Imipenem + Cilastatina",
     "concentracion": "500 mg + 500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo para UTI y UCIN maximo 4 unidades a requerimiento"
+    "observacion": "Solo para UTI y UCIN a requerimiento"
   },
   {
     "codigo": "M0107",
@@ -648,7 +648,7 @@
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "3 ml con aguja 21 x 1 1/2\"",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo UCIN, pediatría, Neonatología max 5 "
   },
   {
     "codigo": "DJ004",
@@ -725,7 +725,7 @@
     "medicamento": "Levofloxacina",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo Emergencia Extrema"
+    "observacion": "Sin restricción"
   },
   {
     "codigo": "N0112",
@@ -802,7 +802,7 @@
     "medicamento": "Meloxicam",
     "concentracion": "15 mg",
     "forma": "Comprimido",
-    "observacion": "Solo para  paciente internado"
+    "observacion": "Solo 10 comprimidos por paciente internado o consulta externa"
   },
   {
     "codigo": "J0169",
@@ -816,7 +816,7 @@
     "medicamento": "Metamizol (Dipirona)",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "Solo 3 por paciente dia"
+    "observacion": "Sin restricción"
   },
   {
     "codigo": "A1004",
@@ -844,7 +844,7 @@
     "medicamento": "Metoclopramida",
     "concentracion": "10mg / 2ml",
     "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Maximo 3 por paciente/dia"
   },
   {
     "codigo": "L0126",
