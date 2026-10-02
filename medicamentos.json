@@ -98,6 +98,13 @@
     "observacion": "Solo 60 comprimidos por paciente"
   },
   {
+    "codigo": "C1005",
+    "medicamento": "Atorvastatina",
+    "concentracion": "20 mg",
+    "forma": "Comprimido",
+    "observacion": "Sin Restriccion"
+  }, 
+  {
     "codigo": "M0301",
     "medicamento": "Atracurio besilato",
     "concentracion": "10 mg/ml",
