@@ -1082,14 +1082,14 @@
     "medicamento": "Solucion de glucosa",
     "concentracion": "5% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo UCIN, pediatría, Neonatología, 1 por internación"
+    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
     "codigo": "B0518",
     "medicamento": "Solucion de glucosa",
     "concentracion": "10% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo UCIN, pediatría, Neonatología, 1 por internación"
+    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
     "codigo": "B0521",
@@ -1103,21 +1103,21 @@
     "medicamento": "Solucion Fisiologica",
     "concentracion": "0,9% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 fco por paciente solo para Servicio de Emergencias"
+    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
     "codigo": "B0530",
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Solo 1 fco por paciente solo para Servicio de Emergencias"
+    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
     "codigo": "B0532",
     "medicamento": "Solucion ringer normal",
     "concentracion": "1.000 ml",
     "forma": "Solución parenteral de gran vo" ,
-    "observacion": "Solo 1 fco por paciente solo para Servicio de Emergencias"
+    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
     "codigo": "DSD011",
