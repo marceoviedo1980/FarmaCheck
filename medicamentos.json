@@ -25,7 +25,7 @@
     "medicamento": "Acido Tranexamico",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo para servicio de *QUIRÓFANO*, máximo 2 por paciente"
   },
   {
     "codigo": "DAC001",
