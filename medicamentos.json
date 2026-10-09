@@ -371,13 +371,6 @@
     "observacion": "SIN RESTRICCIÓN"
   },
   {
-    "codigo": "DPF003",
-    "medicamento": "Condón Masculino",
-    "concentracion": "Sobre estéril",
-    "forma": "Pieza",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "H0204",
     "medicamento": "Dexametasona",
     "concentracion": "4 mg/ml",
@@ -516,13 +509,6 @@
     "concentracion": "150 mg",
     "forma": "Comprimido o Capsula",
     "observacion": ""
-  },
-  {
-    "codigo": "DL205",
-    "medicamento": "Frascos de plástico de 100 ml",
-    "concentracion": "Pieza",
-    "forma": "Con tapa rosca estéril",
-    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "C0304",
@@ -788,13 +774,6 @@
     "medicamento": "Máscara para nebulización (Adultos)",
     "concentracion": "Pieza",
     "forma": "Para adultos",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "DTO024",
-    "medicamento": "Máscara para nebulización Pediátrica",
-    "concentracion": "Pieza",
-    "forma": "Pediátrica",
     "observacion": "SIN RESTRICCION"
   },
   {
