@@ -630,13 +630,6 @@
     "observacion": "Solo para paciente internado"
   },
   {
-    "codigo": "A1002",
-    "medicamento": "Insulina recombinante humana NPH",
-    "concentracion": "100 UI/ml",
-    "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "DJ003",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
@@ -686,13 +679,6 @@
     "observacion": "Solo 1 por paciente"
   },
   {
-    "codigo": "M0109",
-    "medicamento": "Ketorolaco",
-    "concentracion": "30 mg/ml",
-    "forma": "Inyectable",
-    "observacion": "Solo 3 por paciente dia"
-  },
-  {
     "codigo": "A0607",
     "medicamento": "Lactulosa",
     "concentracion": "65% a  67%",
@@ -712,13 +698,6 @@
     "concentracion": "400G",
     "forma": "Caja",
     "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "J0168",
-    "medicamento": "Levofloxacina",
-    "concentracion": "500 mg",
-    "forma": "Inyectable",
-    "observacion": "Sin restricción"
   },
   {
     "codigo": "N0112",
