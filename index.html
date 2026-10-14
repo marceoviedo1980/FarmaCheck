@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="theme-color" content="#132077" />
+  <meta name="theme-color" content="#1a5276" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Stock HEAS" />
-  <meta name="description" content="Stock de Medicamentos e Insumos - Hospital El Alto Sur" />
+  <meta name="apple-mobile-web-app-title" content="Farmacia" />
+  <meta name="description" content="Buscador de Medicamentos e Insumos - Hospital Municipal La Portada" />
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icon-192.png" />
-  <title>Stock de Medicamentos – El Alto Sur</title>
+  <title>Farmacia – Buscador</title>
 
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-P22XLLPFPY"></script>
@@ -24,9 +24,9 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --blue-dark: #132077;
-      --blue-mid: #018e44;
-      --blue-light: #dde1f4;
+      --blue-dark: #1a5276;
+      --blue-mid: #2471a3;
+      --blue-light: #d6eaf8;
       --accent: #e74c3c;
       --accent-light: #fdecea;
       --text: #1c2833;
@@ -66,7 +66,7 @@
       margin-bottom: 14px;
     }
 
-    .header-logo { width: 46px; height: 46px; border-radius: 10px; background: #fff; flex-shrink: 0; }
+    .header-icon { font-size: 26px; line-height: 1; }
 
     .header-title { flex: 1; }
 
@@ -194,11 +194,7 @@
       box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     }
 
-    .card-body { padding: 12px 14px; display: flex; align-items: center; gap: 12px; }
-    .card-main { flex: 1; min-width: 0; }
-    .stock { text-align: right; flex-shrink: 0; font-family: 'IBM Plex Mono', monospace; font-size: 17px; font-weight: 500; color: var(--blue-dark); line-height: 1.1; }
-    .stock small { display: block; font-family: 'IBM Plex Sans', sans-serif; font-size: 10px; color: var(--text-muted); margin-top: 2px; }
-    .stock.cero { color: var(--accent); }
+    .card-body { padding: 12px 14px; }
 
     .card-name {
       font-size: 15px;
@@ -224,9 +220,6 @@
       align-items: center;
       gap: 6px;
     }
-
-    .card-obs.ok { background: #e6f4ec; color: #0b6b34; }
-    .detail-obs.ok .detail-value { color: #0b6b34; background: #e6f4ec; }
 
     .empty {
       text-align: center;
@@ -387,10 +380,10 @@
 
 <header>
   <div class="header-top">
-    <img class="header-logo" src="icon-192.png" alt="HEAS" />
+    <div class="header-icon">💊</div>
     <div class="header-title">
       <h1>Stock de Medicamentos y Restricciones</h1>
-      <p>HOSPITAL EL ALTO SUR</p>
+      <p>HOSPITAL MUNICIPAL LA PORTADA</p>
       <p style="font-size:10px;opacity:0.6;margin-top:2px;font-family:'IBM Plex Sans',sans-serif;">Creado por: Marcelo Oviedo L.</p>
     </div>
   </div>
@@ -405,8 +398,7 @@
       <button class="tab" onclick="setFilter('⚠️ Con restricción', this)">Con restricción</button>
       <button class="tab" onclick="setFilter('Comprimido', this)">Comprimido</button>
       <button class="tab" onclick="setFilter('Inyectable', this)">Inyectable</button>
-      <button class="tab" onclick="setFilter('Insumos', this)">Insumos</button>
-      <button class="tab" onclick="setFilter('Sin stock', this)">Sin stock</button>
+      <button class="tab" onclick="setFilter('Sobre estéril', this)">Insumos</button>
     </div>
   </div>
 </header>
@@ -476,17 +468,6 @@ function normalize(str) {
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
-function tieneRestriccion(item) {
-  const o = normalize(item.observacion || '').trim();
-  return o !== '' && o !== 'sin restriccion';
-}
-
-function formatQty(n) {
-  return typeof n === 'number' ? n.toLocaleString('es-BO') : '—';
-}
-
-const FORMAS_INSUMO = ['sobre esteril', 'bolsa esteril', 'pieza', 'caja', 'rollo', 'juego', 'plega'];
-
 function highlight(text, query) {
   if (!query) return text;
   const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -502,11 +483,7 @@ function render() {
     if (currentFilter === 'Todos') {
       // no filter
     } else if (currentFilter === '⚠️ Con restricción') {
-      if (!tieneRestriccion(item)) return false;
-    } else if (currentFilter === 'Insumos') {
-      if (!FORMAS_INSUMO.includes(normalize(item.forma || '').trim())) return false;
-    } else if (currentFilter === 'Sin stock') {
-      if (item.cantidad !== 0) return false;
+      if (!item.observacion) return false;
     } else {
       if (!normalize(item.forma).includes(normalize(currentFilter)) &&
           !normalize(item.concentracion).includes(normalize(currentFilter))) return false;
@@ -535,19 +512,16 @@ function render() {
   }
 
   container.innerHTML = filtered.map((item, i) => {
-    const hasObs = tieneRestriccion(item);
+    const hasObs = !!item.observacion;
     const nameHL = highlight(item.medicamento, currentQuery);
     const subText = [item.forma, item.concentracion].filter(Boolean).join(' · ');
     return `
       <div class="card ${hasObs ? 'has-obs' : ''}" onclick="openModal(${allData.indexOf(item)})" style="animation-delay:${Math.min(i,15)*20}ms">
         <div class="card-body">
-          <div class="card-main">
-            <div class="card-name">${nameHL}</div>
-            <div class="card-sub">${subText}</div>
-          </div>
-          <div class="stock ${item.cantidad === 0 ? 'cero' : ''}">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}${item.cantidad === 0 ? '' : '<small>en stock</small>'}</div>
+          <div class="card-name">${nameHL}</div>
+          <div class="card-sub">${subText}</div>
         </div>
-        ${item.observacion ? (hasObs ? `<div class="card-obs">⚠️ ${item.observacion}</div>` : `<div class="card-obs ok">✓ ${item.observacion}</div>`) : ''}
+        ${hasObs ? `<div class="card-obs">⚠️ ${item.observacion}</div>` : ''}
       </div>`;
   }).join('');
 }
@@ -565,18 +539,13 @@ function openModal(idx) {
     <div class="detail-row">
       <div class="detail-label">Concentración / Presentación</div>
       <div class="detail-value">${item.concentracion || '—'}</div>
-    </div>
-    <div class="detail-row">
-      <div class="detail-label">Cantidad en stock</div>
-      <div class="detail-value">${item.cantidad === 0 ? 'Sin stock' : formatQty(item.cantidad)}</div>
     </div>`;
 
   if (item.observacion) {
-    const r = tieneRestriccion(item);
     bodyHTML += `
-      <div class="detail-row detail-obs ${r ? '' : 'ok'}">
+      <div class="detail-row detail-obs">
         <div class="detail-label">Observación / Restricción</div>
-        <div class="detail-value">${r ? '⚠️' : '✓'} ${item.observacion}</div>
+        <div class="detail-value">⚠️ ${item.observacion}</div>
       </div>`;
   }
 
