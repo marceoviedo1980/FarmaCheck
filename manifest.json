@@ -1,4 +1,5 @@
 {
+  "id": "farmacheck-hmlpt",
   "name": "Buscador de Medicamentos - Hospital La Portada",
   "short_name": "Farmacia",
   "description": "Buscador de medicamentos e insumos del Hospital Municipal La Portada",
@@ -20,5 +21,6 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "scope": "./"
 }
