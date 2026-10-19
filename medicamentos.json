@@ -242,7 +242,7 @@
     "medicamento": "Catéter venoso periférico",
     "concentracion": "Sobre estéril",
     "forma": "Nº 24",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 1 pieza cada 3 dias"
   },
   {
     "codigo": "J0158",
@@ -438,7 +438,7 @@
     "medicamento": "Equipo de Venoclisis",
     "concentracion": "Sobre estéril",
     "forma": "Con aguja N° 21",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 1 pieza cada 3 dias"
   },
   {
     "codigo": "G0204",
@@ -844,7 +844,7 @@
     "medicamento": "Microgotero",
     "concentracion": "sobre esteril",
     "forma": "Con depósito rígido 150ml",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 1 pieza cada 3 dias"
   },
   {
     "codigo": "N0511",
@@ -994,13 +994,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "A0706",
-    "medicamento": "Sales de rehidratacion oral (SRO) baja osmolaridad",
-    "concentracion": "Segun concentracion estandar",
-    "forma": "Sobres",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "DSC008",
     "medicamento": "Seda negra trenzada",
     "concentracion": "Sobre estéril",
@@ -1041,13 +1034,6 @@
     "concentracion": "250 ml",
     "forma": "Solucion",
     "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "B0516",
-    "medicamento": "Solucion de glucosa",
-    "concentracion": "5% (1.000 ml)",
-    "forma": "Solucion parenteral de gran vo",
-    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
     "codigo": "B0518",
