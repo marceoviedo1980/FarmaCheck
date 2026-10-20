@@ -140,13 +140,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "A0602",
-    "medicamento": "Bisacodilo",
-    "concentracion": "5 mg",
-    "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "DB002",
     "medicamento": "Bolsa colectora de orina",
     "concentracion": "Bolsa estéril",
