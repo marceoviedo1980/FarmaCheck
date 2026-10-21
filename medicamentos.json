@@ -672,13 +672,6 @@
     "observacion": "Solo 1 por paciente"
   },
   {
-    "codigo": "A0607",
-    "medicamento": "Lactulosa",
-    "concentracion": "65% a  67%",
-    "forma": "Solucion oral",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "J0516",
     "medicamento": "Lamivudina",
     "concentracion": "10 mg/ml",
