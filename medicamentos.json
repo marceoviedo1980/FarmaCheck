@@ -1050,13 +1050,6 @@
     "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
   },
   {
-    "codigo": "B0532",
-    "medicamento": "Solucion ringer normal",
-    "concentracion": "1.000 ml",
-    "forma": "Solución parenteral de gran vo" ,
-    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
-  },
-  {
     "codigo": "DSD011",
     "medicamento": "Sonda de aspiración",
     "concentracion": "Sobre estéril",
@@ -1188,13 +1181,6 @@
     "concentracion": "Sobre estéril",
     "forma": "N° 3/0",
     "observacion": "SIN RESTRICCION"
-  },
-  {
-    "codigo": "DSC011",
-    "medicamento": "Sutura poliglactina 910",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 1 c/aguja \"J\"",
-    "observacion": "Solo 1 por paciente"
   },
   {
     "codigo": "DSC054",
