@@ -25,7 +25,7 @@
     "medicamento": "Acido Tranexamico",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo para servicio de *QUIRÓFANO*, máximo 2 por paciente"
+    "observacion": "1 POR PACIENTE, SOLO QUIROFANO"
   },
   {
     "codigo": "DAC001",
@@ -60,14 +60,14 @@
     "medicamento": "Albumina humana",
     "concentracion": "20%",
     "forma": "Inyectable",
-    "observacion": "Solo UCIN"
+    "observacion": "SOLO UCIN"
   },
   {
     "codigo": "J0104",
     "medicamento": "Amikacina",
     "concentracion": "500 mg/2 ml",
     "forma": "Inyectable",
-    "observacion": "Maximo 2 solo UCIN, Neonatologia y pediatria"
+    "observacion": "MAXIMO 2, SOLO UCIN, NEONATOLOGIA Y PEDIATRIA"
   },
   {
     "codigo": "C0807",
@@ -95,7 +95,7 @@
     "medicamento": "Atorvastatina",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 30 comprimidos por paciente"
+    "observacion": "MAXIMO 30 POR MES"
   },
   {
     "codigo": "C1005",
@@ -109,7 +109,7 @@
     "medicamento": "Atracurio besilato",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo para QUIRÓFANO, 1 ampolla por paciente de QUIRÓFANO"
+    "observacion": "1 POR PACIENTE, SOLO QUIROFANO"
   },
   {
     "codigo": "J0113",
@@ -193,7 +193,7 @@
     "medicamento": "Catéter venoso central",
     "concentracion": "Sobre estéril",
     "forma": "Triple lúmen set 7f",
-    "observacion": "Solo UTI 1 por paciente"
+    "observacion": "UTI - 1 POR PACIENTE"
   },
   {
     "codigo": "DAC063",
@@ -214,7 +214,7 @@
     "medicamento": "Catéter venoso periférico",
     "concentracion": "Sobre estéril",
     "forma": "Nº 18",
-    "observacion": "Solo 1 por paciente cada 3 dias"
+    "observacion": "1 POR PACIENTE CADA 3 DIAS"
   },
   {
     "codigo": "DAC066",
@@ -235,7 +235,7 @@
     "medicamento": "Catéter venoso periférico",
     "concentracion": "Sobre estéril",
     "forma": "Nº 24",
-    "observacion": "Solo 1 pieza cada 3 dias"
+    "observacion": "1 POR PACIENTE CADA 3 DIAS"
   },
   {
     "codigo": "J0158",
@@ -256,28 +256,28 @@
     "medicamento": "Cefazolina",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "Solo 2 viales por paciente dia"
+    "observacion": "SOLO 2 VIALES AL MOMENTO DE SU INTERNACION"
   },
   {
     "codigo": "J0122",
     "medicamento": "Cefotaxima",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "Solo 6 viales por internación del paciente"
+    "observacion": "SOLO 6 VIALES POR PACIENTE INTERNADO"
   },
   {
     "codigo": "J0126",
     "medicamento": "Ceftriaxona",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "Solo UCIN, Neonatologia y pediatria"
+    "observacion": "SOLO UCIN, NEONATOLOGIA Y PEDIATRIA"
   },
   {
     "codigo": "R607",
     "medicamento": "Cetirizina",
     "concentracion": "10 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 10 comprimidos por paciente"
+    "observacion": "MAXIMO 10 COMP."
   },
   {
     "codigo": "J0127",
@@ -305,14 +305,14 @@
     "medicamento": "Clindamicina",
     "concentracion": "600 mg",
     "forma": "Inyectable",
-    "observacion": "Solo UCIN, Neonatologia y pediatria"
+    "observacion": "SOLO UCIN, NEONATOLOGIA Y PEDIATRIA"
   },
   {
     "codigo": "R0601",
     "medicamento": "Clorfeniramina (Clofenamina)",
     "concentracion": "4 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 10 comprimidos por paciente"
+    "observacion": "MAXIMO 10 COMP."
   },
   {
     "codigo": "R0603",
@@ -354,7 +354,7 @@
     "medicamento": "Complejo B",
     "concentracion": "Segun concentracion estandar",
     "forma": "Comprimido o Capsula",
-    "observacion": "Maximo solo 10 por paciente"
+    "observacion": "MAXIMO 10 POR PACIENTE"
   },
   {
     "codigo": "A1107",
@@ -417,7 +417,7 @@
     "medicamento": "Epinefrina (Adrenalina)",
     "concentracion": "1 mg/ml",
     "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "SOLO PARA SITUACIONES DE EMERGENCIAS"
   },
   {
     "codigo": "IE003",
@@ -431,14 +431,14 @@
     "medicamento": "Equipo de Venoclisis",
     "concentracion": "Sobre estéril",
     "forma": "Con aguja N° 21",
-    "observacion": "Solo 1 pieza cada 3 dias"
+    "observacion": "SOLO 1 POR PACIENTE CADA TRES DIAS"
   },
   {
     "codigo": "G0204",
     "medicamento": "Ergometrina maleato",
     "concentracion": "0,2 mg/ml",
     "forma": "Inyectable",
-    "observacion": "MAXIMO 2 ampollas por paciente dia"
+    "observacion": "MAXIMO 2 POR DIA"
   },
   {
     "codigo": "G0203",
@@ -466,14 +466,14 @@
     "medicamento": "Citrato de Fentanilo (Ampolla de 10 ml)",
     "concentracion": "0,05 mg/ml",
     "forma": "Inyectable (Ampolla de 10 ml)",
-    "observacion": "Solo quirofano y UCIN uno por dia"
+    "observacion": "SOLO QUIROFANO Y UCIN 1 POR DIA"
   },
   {
     "codigo": "N0106",
     "medicamento": "Citrato de Fentanilo (Ampolla de 2 ml)",
     "concentracion": "0,05 mg/ml",
     "forma": "Inyectable (Ampolla de 2 ml)",
-    "observacion": "Solo Quirofano"
+    "observacion": "SOLO QUIROFANO"
   },
   {
     "codigo": "DOT035",
@@ -515,7 +515,7 @@
     "medicamento": "Furosemida",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "MAXIMO 3 ampollas por paciente dia"
+    "observacion": "MAXIMO 3 AMPOLLAS POR DIA"
   },
   {
     "codigo": "A1001",
@@ -529,21 +529,21 @@
     "medicamento": "Gluconato de calcio",
     "concentracion": "10%",
     "forma": "Inyectable",
-    "observacion": "MAXIMO 3 ampollas por paciente dia"
+    "observacion": "MAXIMO 3 AMPOLLAS POR DIA"
   },
   {
     "codigo": "DMQ020",
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
     "forma": "N° 6 1/2 puño largo",
-    "observacion": "Solo quirofano,UCIN, Pediatría, partos y UTI maximo 2 POR DIA"
+    "observacion": "QUIROF-UCIN-PEDIATRIA-PARTOS-UTI MAX 2 DIA"
   },
   {
     "codigo": "DMQ021",
     "medicamento": "Guantes quirúrgicos estéril",
     "concentracion": "Sobre estéril",
     "forma": "N° 7 puño largo",
-    "observacion": "Solo quirofano maximo 2"
+    "observacion": "SOLO QUIROFANO MAX 2 - DIA"
   },
   {
     "codigo": "H0205",
@@ -599,28 +599,28 @@
     "medicamento": "Ibuprofeno",
     "concentracion": "400 mg",
     "forma": "Comprimido",
-    "observacion": "SOLO 15 POR PACIENTE"
+    "observacion": "15 POR PACIENTE"
   },
   {
     "codigo": "J0150",
     "medicamento": "Imipenem + Cilastatina",
     "concentracion": "500 mg + 500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo para UTI y UCIN a requerimiento"
+    "observacion": "UTI - UCIN A REQUERIMIENTO Y CON ANTIBIOGRAMA PARA MEDICINA INTERNA"
   },
   {
     "codigo": "M0107",
     "medicamento": "Indometacina",
     "concentracion": "100 mg",
     "forma": "Supositorio",
-    "observacion": "Solo para paciente internado"
+    "observacion": "SOLO PARA PACIENTES INTERNADOS"
   },
   {
     "codigo": "DJ003",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "3 ml con aguja 21 x 1 1/2\"",
-    "observacion": "Solo UCIN, pediatría, Neonatología max 5 "
+    "observacion": "UCIN-PEDIATRIA-NEONATOLOGIA MAX 5 DIA"
   },
   {
     "codigo": "DJ004",
@@ -634,35 +634,35 @@
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "10 ml con aguja 21 x 1 1/2\"",
-    "observacion": "Maximo cinco por paciente"
+    "observacion": "MAXIMO 5 POR DIA POR PACIENTE"
   },
   {
     "codigo": "DJ006",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "20 ml con aguja 21x 1 1/2\"",
-    "observacion": "maximo 5 unidades por paciente"
+    "observacion": "MAXIMO 5 POR DIA POR PACIENTE"
   },
   {
     "codigo": "DJ007",
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "50 ml",
-    "observacion": "solo UTI, UCIN, PEDIATRIA MAXIMO 2 POR PACIENTE DIA"
+    "observacion": "UCIN- UTI - PEDIATRIA MAX 2 DIA"
   },
   {
     "codigo": "DJ008",
     "medicamento": "Jeringa insulina descartable",
     "concentracion": "Sobre estéril",
     "forma": "1 ml c/aguja fija",
-    "observacion": "Maximo 10 por dia por paciente"
+    "observacion": "MAXIMO 10 POR DIA POR PACIENTE"
   },
   {
     "codigo": "M0110",
     "medicamento": "Ketoprofeno",
     "concentracion": "100 mg",
     "forma": "Inyectable",
-    "observacion": "Solo 1 por paciente"
+    "observacion": "MAX 1 POR PACIENTE DIA"
   },
   {
     "codigo": "J0516",
@@ -704,7 +704,7 @@
     "medicamento": "Losartan",
     "concentracion": "50 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 60 comprimidos por paciente"
+    "observacion": "MAXIMO 60 POR MES"
   },
   {
     "codigo": "DNP002A",
@@ -746,14 +746,14 @@
     "medicamento": "Meloxicam",
     "concentracion": "15 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 10 comprimidos por paciente internado o consulta externa"
+    "observacion": "MAXIMO 10 COMPRIMIDOS POR PACIENTE"
   },
   {
     "codigo": "J0169",
     "medicamento": "Meropenem",
     "concentracion": "500 mg",
     "forma": "Inyectable",
-    "observacion": "Solo UCIN y UTI a requerimiento"
+    "observacion": "UCIN - UTI A REQUERIMIENTO"
   },
   {
     "codigo": "N0205",
@@ -788,7 +788,7 @@
     "medicamento": "Metoclopramida",
     "concentracion": "10mg / 2ml",
     "forma": "Inyectable",
-    "observacion": "Maximo 3 por paciente/dia"
+    "observacion": "MAXIMO 3 POR PACIENTE DIA"
   },
   {
     "codigo": "L0126",
@@ -823,21 +823,21 @@
     "medicamento": "Microgotero",
     "concentracion": "sobre esteril",
     "forma": "Con depósito rígido 150ml",
-    "observacion": "Solo 1 pieza cada 3 dias"
+    "observacion": "SOLO 1 CADA TRES DIAS"
   },
   {
     "codigo": "N0511",
     "medicamento": "Midazolam",
     "concentracion": "15 mg/3 ml",
     "forma": "Inyectable",
-    "observacion": "Solo para el servicio de QUIRÓFANO"
+    "observacion": "SOLO QUIROFANO"
   },
   {
     "codigo": "A0206",
     "medicamento": "Misoprostol",
     "concentracion": "200 mcg",
     "forma": "Comprimido",
-    "observacion": "Solo 4 por paciente"
+    "observacion": "MAXIMO 4 POR PACIENTE"
   },
   {
     "codigo": "N0207",
@@ -872,14 +872,14 @@
     "medicamento": "Omeprazol",
     "concentracion": "20 mg",
     "forma": "Capsula",
-    "observacion": "Solo a 30 capsulas por paciente"
+    "observacion": "MAXIMO 30 POR MES"
   },
   {
     "codigo": "A0203",
     "medicamento": "Omeprazol",
     "concentracion": "40 mg/ml",
     "forma": "Inyectable",
-    "observacion": "MAXIMO 2 inyectables por paciente dia"
+    "observacion": "SOLO 2 POR PACIENTE DIA"
   },
   {
     "codigo": "D0202",
@@ -942,14 +942,14 @@
     "medicamento": "Pregabalina",
     "concentracion": "75 mg",
     "forma": "Comprimido o Capsula",
-    "observacion": "Solo para paciente internado"
+    "observacion": "SOLO PACIENTE INTERNADO"
   },
   {
     "codigo": "N0113",
     "medicamento": "Propofol",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo quirofano, 1 ampolla por paciente día"
+    "observacion": "SOLO QUIROFANO MAX 1 - DIA"
   },
   {
     "codigo": "A1116",
@@ -1019,7 +1019,7 @@
     "medicamento": "Solucion de glucosa",
     "concentracion": "10% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "B0521",
@@ -1040,7 +1040,7 @@
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
+    "observacion": "DISPENSACION NOCTURNA A PARTIR DE LAS 22:30 SOLO PARA EMERGENCIAS, MAXIMO 1 POR PACIENTE"
   },
   {
     "codigo": "DSD011",
@@ -1138,14 +1138,14 @@
     "medicamento": "Sulfato ferroso + Acido fólico + Vitamina C",
     "concentracion": "200 mg + 0.5 mg + 150 mg",
     "forma": "Comprimido",
-    "observacion": "Solo 30 comprimidos por paciente"
+    "observacion": "MAX 30 POR PACIENTE"
   },  
   {
     "codigo": "R0701",
     "medicamento": "Surfactante pulmonar",
     "concentracion": "25 a 35 mg/ml",
     "forma": "Inyectable",
-    "observacion": "Solo 1 por internacion"
+    "observacion": "1 POR PACIENTE HASTA LLEGAR A 2, LUEGO CON REPOSICION"
   },
   {
     "codigo": "DSC013",
