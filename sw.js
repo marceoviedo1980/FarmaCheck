@@ -1,4 +1,8 @@
-const CACHE = 'farmacia-v80';
+// Prefijo propio: al actualizar solo se borran las cachés de ESTA app.
+// Otras PWA del mismo dominio (marceoviedo1980.github.io) no se tocan.
+const CACHE_PREFIX = 'farmacheck-lp-';
+const CACHE = CACHE_PREFIX + 'v81';
+const LEGACY = /^farmacia-v\d+$/; // nombres antiguos de esta misma app
 const FILES = ['./index.html', './medicamentos.json', './manifest.json'];
 
 self.addEventListener('install', e => {
@@ -8,7 +12,7 @@ self.addEventListener('install', e => {
 
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(keys =>
-    Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
+    Promise.all(keys.filter(k => (k.startsWith(CACHE_PREFIX) || LEGACY.test(k)) && k !== CACHE).map(k => caches.delete(k)))
   ));
   self.clients.claim();
 });
