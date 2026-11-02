@@ -109,7 +109,7 @@
     "medicamento": "Atracurio besilato",
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo para QUIRÓFANO, 1 ampolla por paciente de QUIRÓFANO"
   },
   {
     "codigo": "J0113",
@@ -263,7 +263,7 @@
     "medicamento": "Cefotaxima",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "Solo 6 viales por internación del paciente"
   },
   {
     "codigo": "J0126",
@@ -600,13 +600,6 @@
     "concentracion": "400 mg",
     "forma": "Comprimido",
     "observacion": "SOLO 15 POR PACIENTE"
-  },
-  {
-    "codigo": "M0104",
-    "medicamento": "Ibuprofeno",
-    "concentracion": "100 mg/5 ml, (100ml)",
-    "forma": "Suspension",
-    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "J0150",
