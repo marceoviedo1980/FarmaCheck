@@ -182,6 +182,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "H0105",
+    "medicamento": "Carbetocina",
+    "concentracion": "100 mcg/ml",
+    "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "DAC042",
     "medicamento": "Catéter doble lúmen  neonatal",
     "concentracion": "Sobre estéril",
