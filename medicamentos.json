@@ -91,13 +91,6 @@
     "observacion": "SIN RESTRICCION"
   },
   {
-    "codigo": "C1001",
-    "medicamento": "Atorvastatina",
-    "concentracion": "10 mg",
-    "forma": "Comprimido",
-    "observacion": "MAXIMO 30 POR MES"
-  },
-  {
     "codigo": "C1005",
     "medicamento": "Atorvastatina",
     "concentracion": "20 mg",
@@ -1117,13 +1110,6 @@
     "medicamento": "Sonda nasogástrica",
     "concentracion": "Sobre estéril",
     "forma": "N° 4",
-    "observacion": "SIN RESTRICCION"
-  },
- {
-    "codigo": "DSD037",
-    "medicamento": "Sonda nasogástrica",
-    "concentracion": "Sobre estéril",
-    "forma": "N° 6",
     "observacion": "SIN RESTRICCION"
   },
   {
