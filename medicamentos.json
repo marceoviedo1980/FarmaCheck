@@ -263,7 +263,7 @@
     "medicamento": "Cefotaxima",
     "concentracion": "1 g",
     "forma": "Inyectable",
-    "observacion": "SOLO 6 VIALES POR PACIENTE INTERNADO"
+    "observacion": "MAXIMO 2 VIALES POR TODA LA INTERNACION DEL PACIENTE"
   },
   {
     "codigo": "J0126",
