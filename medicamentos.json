@@ -749,13 +749,6 @@
     "observacion": "MAXIMO 10 COMPRIMIDOS POR PACIENTE"
   },
   {
-    "codigo": "J0169",
-    "medicamento": "Meropenem",
-    "concentracion": "500 mg",
-    "forma": "Inyectable",
-    "observacion": "UCIN - UTI A REQUERIMIENTO"
-  },
-  {
     "codigo": "N0205",
     "medicamento": "Metamizol (Dipirona)",
     "concentracion": "1 g",
