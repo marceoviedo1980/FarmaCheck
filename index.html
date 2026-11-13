@@ -376,6 +376,31 @@
       border-radius: 2px;
       padding: 0 1px;
     }
+
+    /* ---- Novedades (campanita) ---- */
+    .bell-btn { position: relative; width: 42px; height: 42px; border-radius: 50%; flex-shrink: 0; align-self: flex-start;
+      border: 1.5px solid rgba(255,255,255,0.55); background: rgba(255,255,255,0.14); color: #fff;
+      display: none; align-items: center; justify-content: center; cursor: pointer; }
+    .bell-btn.show { display: flex; }
+    .bell-btn:active { transform: scale(0.94); }
+    .bell-badge { position: absolute; top: -6px; right: -6px; min-width: 21px; height: 21px; padding: 0 5px; border-radius: 11px;
+      background: #e53935; border: 2px solid #fff; color: #fff; font-size: 11px; font-weight: 700; line-height: 17px;
+      text-align: center; font-family: 'IBM Plex Sans', sans-serif; display: none; }
+    .bell-badge.show { display: block; }
+    .nv-sub { font-size: 12px; opacity: 0.75; margin-top: 4px; }
+    .nv-sec { font-size: 13px; font-weight: 700; padding: 14px 0 6px; }
+    .nv-sec.ingreso { color: #0b6b34; } .nv-sec.restriccion { color: #a15c00; } .nv-sec.sinstock { color: #b71c1c; }
+    .nv-item { display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin-bottom: 6px; border-radius: 10px;
+      background: var(--bg); border-left: 4px solid #999; }
+    .nv-item.ingreso { border-left-color: #1f9d57; } .nv-item.restriccion { border-left-color: #e08a00; } .nv-item.sinstock { border-left-color: #d32f2f; }
+    .nv-item.link { cursor: pointer; }
+    .nv-main { flex: 1; min-width: 0; }
+    .nv-name { font-size: 14px; font-weight: 600; line-height: 1.3; }
+    .nv-meta { font-size: 12px; color: var(--text-muted); margin-top: 2px; line-height: 1.4; }
+    .nv-nota { font-size: 12px; color: #a15c00; margin-top: 2px; font-weight: 500; }
+    .nv-new { background: #e53935; color: #fff; font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 8px; flex-shrink: 0; }
+    .nv-go { color: var(--text-muted); font-size: 18px; flex-shrink: 0; }
+    .nv-empty { text-align: center; color: var(--text-muted); font-size: 14px; padding: 30px 10px; }
   </style>
 </head>
 <body>
@@ -388,6 +413,10 @@
       <p>HOSPITAL MUNICIPAL LA PORTADA</p>
       <p style="font-size:10px;opacity:0.6;margin-top:2px;font-family:'IBM Plex Sans',sans-serif;">Creado por: Marcelo Oviedo L.</p>
     </div>
+    <button class="bell-btn" id="bellBtn" type="button" aria-label="Novedades">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+      <span class="bell-badge" id="bellBadge"></span>
+    </button>
   </div>
   <div class="search-wrap">
     <div class="search-box">
@@ -418,6 +447,18 @@
     </div>
     <div class="modal-body" id="mBody"></div>
     <button class="modal-close" onclick="closeModal()">Cerrar</button>
+  </div>
+</div>
+
+<div class="overlay" id="nvOverlay">
+  <div class="modal">
+    <div class="modal-handle"></div>
+    <div class="modal-header">
+      <h2>🔔 Novedades</h2>
+      <div class="nv-sub">Cambios de los últimos 15 días</div>
+    </div>
+    <div class="modal-body" id="nvBody"></div>
+    <button class="modal-close" id="nvClose" type="button">Cerrar</button>
   </div>
 </div>
 
@@ -561,6 +602,92 @@ function closeModal(e) {
   document.getElementById('overlay').classList.remove('open');
   document.body.style.overflow = '';
 }
+
+// ===== Novedades (campanita) =====
+// Lee novedades.json. Si el archivo falta o tiene un error, la campanita
+// simplemente no aparece y el resto de la app sigue funcionando igual.
+(function () {
+  var DIAS = 15, LS = 'farmacheck-lp-novedades-vistas';
+  var TIPOS = [
+    ['ingreso', '🆕 Nuevos ingresos'],
+    ['restriccion', '⚠️ Nuevas restricciones'],
+    ['sinstock', '🚫 Sin stock']
+  ];
+  var btn = document.getElementById('bellBtn'), badge = document.getElementById('bellBadge');
+  var ov = document.getElementById('nvOverlay'), body = document.getElementById('nvBody');
+  var lista = [];
+
+  function e(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function clave(n) { return [n.fecha, n.tipo, n.codigo || '', n.programa || '', n.nombre].join('|'); }
+  function vistas() { try { var v = JSON.parse(localStorage.getItem(LS) || '[]'); return Array.isArray(v) ? v : []; } catch (_) { return []; } }
+  function guardar(a) { try { localStorage.setItem(LS, JSON.stringify(a)); } catch (_) {} }
+  function reciente(f) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(f || '');
+    if (!m) return false;
+    var dif = (Date.now() - new Date(+m[1], m[2] - 1, +m[3]).getTime()) / 864e5;
+    return dif > -2 && dif < DIAS + 1;
+  }
+  function fechaCorta(f) { var p = f.split('-'); return p[2] + '/' + p[1]; }
+  function valida(n) {
+    return n && typeof n.nombre === 'string' && n.nombre && TIPOS.some(function (t) { return t[0] === n.tipo; }) && reciente(n.fecha);
+  }
+  function indice(n) {
+    if (!n.codigo) return -1;
+    return allData.findIndex(function (i) { return i.codigo === n.codigo; });
+  }
+  function pintarBadge() {
+    var v = vistas();
+    var k = lista.filter(function (n) { return v.indexOf(clave(n)) === -1; }).length;
+    badge.textContent = k > 99 ? '99+' : k;
+    badge.classList.toggle('show', k > 0);
+  }
+  function abrir() {
+    var v = vistas(), html = '';
+    TIPOS.forEach(function (t) {
+      var items = lista.filter(function (n) { return n.tipo === t[0]; });
+      if (!items.length) return;
+      html += '<div class="nv-sec ' + t[0] + '">' + t[1] + ' (' + items.length + ')</div>';
+      items.forEach(function (n) {
+        var idx = indice(n), nuevo = v.indexOf(clave(n)) === -1;
+        html += '<div class="nv-item ' + n.tipo + (idx > -1 ? ' link' : '') + '" data-i="' + lista.indexOf(n) + '">' +
+          '<div class="nv-main"><div class="nv-name">' + e(n.nombre) + '</div>' +
+          '<div class="nv-meta">' + fechaCorta(n.fecha) + '' + '</div>' +
+          (n.nota ? '<div class="nv-nota">' + e(n.nota) + '</div>' : '') + '</div>' +
+          (nuevo ? '<span class="nv-new">NUEVO</span>' : '') +
+          (idx > -1 ? '<span class="nv-go">›</span>' : '') + '</div>';
+      });
+    });
+    body.innerHTML = html || '<div class="nv-empty">Sin novedades en los últimos ' + DIAS + ' días.</div>';
+    ov.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    guardar(lista.map(clave));
+    pintarBadge();
+    if (typeof gtag === 'function') { try { gtag('event', 'abrir_novedades'); } catch (_) {} }
+  }
+  function cerrar() { ov.classList.remove('open'); document.body.style.overflow = ''; }
+
+  btn.addEventListener('click', abrir);
+  document.getElementById('nvClose').addEventListener('click', cerrar);
+  ov.addEventListener('click', function (ev) { if (ev.target === ov) cerrar(); });
+  body.addEventListener('click', function (ev) {
+    var it = ev.target.closest('.nv-item.link');
+    if (!it) return;
+    var n = lista[+it.dataset.i], idx = indice(n);
+    if (idx < 0) return;
+    cerrar();
+    openModal(idx);
+  });
+
+  fetch('novedades.json')
+    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) {
+      if (!Array.isArray(d)) return;
+      lista = d.filter(valida).sort(function (a, b) { return a.fecha < b.fecha ? 1 : a.fecha > b.fecha ? -1 : 0; });
+      btn.classList.add('show');
+      pintarBadge();
+    })
+    .catch(function () {});
+})();
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});

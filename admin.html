@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Novedades – página de apoyo</title>
+  <style>
+    :root { --c: #1a5276; --border: #d5dbdb; --muted: #717d7e; --bg: #f2f3f4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, 'Segoe UI', Arial, sans-serif; background: var(--bg); color: #1c2833; font-size: 15px; }
+    header { background: var(--c); color: #fff; padding: 14px 16px; }
+    header h1 { margin: 0; font-size: 17px; }
+    header p { margin: 3px 0 0; font-size: 12px; opacity: .8; }
+    main { max-width: 760px; margin: 0 auto; padding: 12px; }
+    .box { background: #fff; border-radius: 12px; padding: 14px; margin-bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .box h2 { margin: 0 0 10px; font-size: 15px; }
+    label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 4px; }
+    input[type=text], input[type=date], select { width: 100%; padding: 10px; font-size: 15px; border: 1px solid var(--border); border-radius: 8px; font-family: inherit; background: #fff; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+    .sug { border: 1px solid var(--border); border-radius: 8px; margin-top: 4px; overflow: hidden; display: none; }
+    .sug div { padding: 9px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 14px; }
+    .sug div:last-child { border-bottom: 0; }
+    .sug div:hover { background: #eef3ff; }
+    .sug small { color: var(--muted); display: block; }
+    .seg { display: flex; gap: 6px; flex-wrap: wrap; }
+    .seg button { flex: 1; padding: 10px 6px; border: 2px solid var(--border); background: #fff; border-radius: 8px; font-size: 14px; cursor: pointer; font-family: inherit; white-space: nowrap; }
+    .seg button.on { border-color: var(--c); background: var(--c); color: #fff; font-weight: 600; }
+    .btn { border: 0; background: var(--c); color: #fff; padding: 11px 16px; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .btn.sec { background: #fff; color: var(--c); border: 2px solid var(--c); }
+    .btn:disabled { opacity: .45; cursor: not-allowed; }
+    .err { color: #c62828; font-size: 13px; margin-left: 10px; }
+    .row { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-top: 1px solid #eee; font-size: 14px; }
+    .row .t { flex: 1; min-width: 0; }
+    .row small { color: var(--muted); }
+    .row button { border: 0; background: #fdecea; color: #c62828; border-radius: 6px; width: 30px; height: 30px; cursor: pointer; font-size: 15px; flex-shrink: 0; }
+    .pill { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+    .pill.ingreso { background: #e6f4ec; color: #0b6b34; } .pill.restriccion { background: #fff1d6; color: #8a4b00; } .pill.sinstock { background: #fde8e8; color: #b71c1c; }
+    .vacio { color: var(--muted); font-size: 13px; padding: 8px 0; }
+    pre { margin: 8px 0 0; background: #f6f8fa; border: 1px solid var(--border); border-radius: 8px; padding: 10px; font-size: 12px; max-height: 240px; overflow: auto; white-space: pre-wrap; word-break: break-word; }
+    pre.wa { font-family: inherit; font-size: 14px; }
+    .ok { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 10px; }
+    .ok.si { background: #e6f4ec; color: #0b6b34; } .ok.no { background: #fde8e8; color: #b71c1c; }
+    .acc { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .aviso { background: #fff7d6; border: 1px solid #f0d878; color: #5c4a00; border-radius: 8px; padding: 9px 12px; font-size: 13px; margin-bottom: 12px; display: none; }
+    ol { margin: 6px 0 0; padding-left: 20px; font-size: 13px; color: #444; line-height: 1.6; }
+    details summary { cursor: pointer; font-size: 14px; font-weight: 600; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>🔔 Novedades · página de apoyo</h1>
+  <p>FarmaCheck – Hospital Municipal La Portada · uso interno de Farmacia</p>
+</header>
+<main>
+  <div class="aviso" id="aviso"></div>
+
+  <div class="box">
+    <h2>1. Agregar un cambio</h2>
+    <label for="q">Medicamento o insumo (escriba parte del nombre o del código)</label>
+    <input type="text" id="q" autocomplete="off" placeholder="Ej.: parace" />
+    <div class="sug" id="sug"></div>
+
+    <div class="grid">
+      <div>
+        <label for="cod">Código</label>
+        <input type="text" id="cod" autocomplete="off" placeholder="Se llena solo al elegir" />
+      </div>
+      <div id="progWrap">
+        <label for="prog">Programa</label>
+        <select id="prog"></select>
+      </div>
+      <div>
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" />
+      </div>
+    </div>
+
+    <label>Tipo de novedad</label>
+    <div class="seg" id="seg">
+      <button type="button" data-t="ingreso" class="on">🆕 Ingreso</button>
+      <button type="button" data-t="restriccion">⚠️ Restricción</button>
+      <button type="button" data-t="sinstock">🚫 Sin stock</button>
+    </div>
+
+    <label for="nota">Nota (opcional; en restricciones, escriba cuál es)</label>
+    <input type="text" id="nota" autocomplete="off" placeholder="Ej.: 1 por paciente, solo quirófano" />
+
+    <div style="margin-top:14px">
+      <button class="btn" id="add" type="button">＋ Agregar a la lista</button>
+      <span class="err" id="err"></span>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>2. Cambios nuevos de esta actualización (<span id="nN">0</span>)</h2>
+    <div id="nuevos"></div>
+    <details style="margin-top:12px">
+      <summary>Novedades que ya están publicadas (<span id="nE">0</span>)</summary>
+      <div id="exist"></div>
+    </details>
+  </div>
+
+  <div class="box">
+    <h2>3. Archivo novedades.json completo <span class="ok" id="ok"></span></h2>
+    <div class="acc">
+      <button class="btn" id="dl" type="button">⬇ Descargar novedades.json</button>
+      <button class="btn sec" id="c1" type="button">Copiar todo</button>
+    </div>
+    <ol>
+      <li>Descargue el archivo (se llama <b>novedades.json</b>).</li>
+      <li>En GitHub, repositorio <b>FarmaCheck</b>: <i>Add file → Upload files</i>, suba el archivo y confirme (<i>Commit changes</i>). Reemplaza al anterior.</li>
+      <li>No hace falta tocar <b>sw.js</b> ni abrir el archivo en Notepad++.</li>
+    </ol>
+    <pre id="json"></pre>
+  </div>
+
+  <div class="box">
+    <h2>4. Comunicado para WhatsApp</h2>
+    <div class="acc"><button class="btn sec" id="c2" type="button">Copiar comunicado</button></div>
+    <pre class="wa" id="wa">—</pre>
+  </div>
+</main>
+
+<script>
+var CFG = { app: 'FarmaCheck', url: 'https://marceoviedo1980.github.io/FarmaCheck/', programas: null };
+var TIT = { ingreso: 'Ingreso', restriccion: 'Restricción', sinstock: 'Sin stock' };
+var meds = [], exist = [], nuevos = [], tipo = 'ingreso';
+var $ = function (id) { return document.getElementById(id); };
+
+function norm(s) { return String(s == null ? '' : s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+function hoy() { var d = new Date(), p = function (x) { return String(x).padStart(2, '0'); }; return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); }
+function nombreDe(m) { return [m.medicamento, m.concentracion].filter(Boolean).join(' ').trim(); }
+function progNombre(p) { return CFG.programas && CFG.programas[p] ? CFG.programas[p] : ''; }
+function aviso(t) { var a = $('aviso'); a.textContent = t; a.style.display = 'block'; }
+
+$('fecha').value = hoy();
+if (CFG.programas) {
+  Object.keys(CFG.programas).forEach(function (k) {
+    var o = document.createElement('option'); o.value = k; o.textContent = CFG.programas[k]; $('prog').appendChild(o);
+  });
+} else { $('progWrap').style.display = 'none'; }
+
+function cargar(url) { return fetch(url + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+cargar('medicamentos.json').then(function (d) { meds = Array.isArray(d) ? d : []; })
+  .catch(function () { aviso('No se pudo leer medicamentos.json: el buscador no sugerirá nombres, pero puede escribir nombre y código a mano.'); });
+cargar('novedades.json').then(function (d) { if (!Array.isArray(d)) throw 0; exist = d; pintar(); })
+  .catch(function () { aviso('No se pudo leer el novedades.json publicado (no existe o tiene un error). Se empezará un archivo nuevo desde cero.'); pintar(); });
+
+$('q').addEventListener('input', function () {
+  $('err').textContent = '';
+  var v = norm(this.value.trim()), s = $('sug');
+  s.innerHTML = '';
+  if (v.length < 2) { s.style.display = 'none'; return; }
+  var toks = v.split(/\s+/);
+  var m = meds.filter(function (x) {
+    var t = norm([x.medicamento, x.codigo, x.concentracion, x.forma].join(' '));
+    return toks.every(function (k) { return t.indexOf(k) > -1; });
+  }).slice(0, 8);
+  if (!m.length) { s.style.display = 'none'; return; }
+  m.forEach(function (x) {
+    var r = document.createElement('div');
+    r.textContent = nombreDe(x);
+    var sm = document.createElement('small');
+    sm.textContent = [x.codigo, x.forma, progNombre(x.programa)].filter(Boolean).join(' · ');
+    r.appendChild(sm);
+    r.addEventListener('click', function () {
+      $('q').value = nombreDe(x); $('cod').value = x.codigo || '';
+      if (CFG.programas && x.programa) $('prog').value = x.programa;
+      if (tipo === 'restriccion' && x.observacion && norm(x.observacion).trim() !== 'sin restriccion') $('nota').value = x.observacion;
+      s.style.display = 'none';
+    });
+    s.appendChild(r);
+  });
+  s.style.display = 'block';
+});
+
+$('seg').addEventListener('click', function (e) {
+  var b = e.target.closest('button'); if (!b) return;
+  tipo = b.dataset.t;
+  Array.prototype.forEach.call(this.children, function (x) { x.classList.toggle('on', x === b); });
+});
+
+$('add').addEventListener('click', function () {
+  var nom = $('q').value.trim(), cod = $('cod').value.trim(), f = $('fecha').value;
+  if (!nom) { $('err').textContent = 'Escriba o elija un medicamento'; return; }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(f)) { $('err').textContent = 'Revise la fecha'; return; }
+  var o = { fecha: f, tipo: tipo, codigo: cod, nombre: nom };
+  if (CFG.programas) o.programa = $('prog').value;
+  var nota = $('nota').value.trim(); if (nota) o.nota = nota;
+  nuevos.push(o);
+  $('q').value = ''; $('cod').value = ''; $('nota').value = ''; $('err').textContent = '';
+  pintar(); $('q').focus();
+});
+
+function fila(o, alQuitar) {
+  var r = document.createElement('div'); r.className = 'row';
+  var p = document.createElement('span'); p.className = 'pill ' + o.tipo; p.textContent = TIT[o.tipo] || o.tipo;
+  var t = document.createElement('span'); t.className = 't'; t.textContent = o.nombre + ' ';
+  var sm = document.createElement('small');
+  sm.textContent = [o.fecha, progNombre(o.programa), o.nota].filter(Boolean).join(' · ');
+  t.appendChild(sm);
+  var x = document.createElement('button'); x.type = 'button'; x.textContent = '✕'; x.title = 'Quitar'; x.addEventListener('click', alQuitar);
+  r.appendChild(p); r.appendChild(t); r.appendChild(x);
+  return r;
+}
+
+function lista(el, arr, vacio) {
+  el.innerHTML = '';
+  if (!arr.length) { var v = document.createElement('div'); v.className = 'vacio'; v.textContent = vacio; el.appendChild(v); return; }
+  arr.forEach(function (o, i) { el.appendChild(fila(o, function () { arr.splice(i, 1); pintar(); })); });
+}
+
+function pintar() {
+  $('nN').textContent = nuevos.length; $('nE').textContent = exist.length;
+  lista($('nuevos'), nuevos, 'Aún no agregó nada.');
+  lista($('exist'), exist, 'No hay novedades publicadas.');
+  var j = JSON.stringify(exist.concat(nuevos), null, 2) + '\n', valido = true;
+  try { if (!Array.isArray(JSON.parse(j))) valido = false; } catch (e) { valido = false; }
+  $('json').textContent = j;
+  $('ok').textContent = valido ? '✓ JSON válido' : '✕ JSON con error';
+  $('ok').className = 'ok ' + (valido ? 'si' : 'no');
+  $('dl').disabled = !valido; $('c1').disabled = !valido;
+  $('wa').textContent = nuevos.length ? comunicado() : '—';
+}
+
+function bloque(t, ico, tit) {
+  var s = nuevos.filter(function (i) { return i.tipo === t; });
+  if (!s.length) return '';
+  return ico + ' *' + tit + '*\n' + s.map(function (i) {
+    var p = progNombre(i.programa);
+    return '• ' + i.nombre + (p ? ' (' + p + ')' : '') + (i.nota ? ': ' + i.nota : '');
+  }).join('\n') + '\n\n';
+}
+function comunicado() {
+  return '*Actualización*\n\n' +
+    bloque('ingreso', '✅', 'Nuevos ingresos') +
+    bloque('restriccion', '⚠️', 'Nuevas restricciones') +
+    bloque('sinstock', '🚫', 'Sin stock') +
+    'La app *' + CFG.app + '* fue actualizada. Puede ver estos cambios tocando la campanita 🔔.\n' +
+    CFG.url + '\n\nGracias\n*Farmacia*';
+}
+
+function copiar(id, btn) {
+  var t = $(id).textContent; if (!t || t === '—') return;
+  var orig = btn.textContent;
+  var listo = function () { btn.textContent = '✓ Copiado'; setTimeout(function () { btn.textContent = orig; }, 1500); };
+  var plan = function () {
+    var ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); listo(); } catch (e) {} document.body.removeChild(ta);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(listo, plan); else plan();
+}
+$('c1').addEventListener('click', function () { copiar('json', this); });
+$('c2').addEventListener('click', function () { copiar('wa', this); });
+$('dl').addEventListener('click', function () {
+  var b = new Blob([$('json').textContent], { type: 'application/json' });
+  var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = 'novedades.json';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+});
+</script>
+</body>
+</html>
