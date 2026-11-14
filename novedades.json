@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "fecha": "2026-11-13",
+    "tipo": "ingreso",
+    "codigo": "M0109",
+    "nombre": "Ketorolaco 30 mg/ml Inyectable",
+    "nota": "Máximo 3 ampollas por paciente/día"
+  }
+]

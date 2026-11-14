@@ -96,7 +96,7 @@
     "concentracion": "20 mg",
     "forma": "Comprimido",
     "observacion": "Sin Restriccion"
-  }, 
+  },
   {
     "codigo": "M0301",
     "medicamento": "Atracurio besilato",
@@ -665,6 +665,13 @@
     "observacion": "MAX 1 POR PACIENTE DIA"
   },
   {
+    "codigo": "M0109",
+    "medicamento": "Ketorolaco",
+    "concentracion": "30 mg/ml",
+    "forma": "Inyectable",
+    "observacion": "MAXIMO 3 AMPOLLAS POR PACIENTE DIA"
+  },
+  {
     "codigo": "J0516",
     "medicamento": "Lamivudina",
     "concentracion": "10 mg/ml",
@@ -1125,7 +1132,7 @@
     "concentracion": "200 mg + 0.5 mg + 150 mg",
     "forma": "Comprimido",
     "observacion": "MAX 30 POR PACIENTE"
-  },  
+  },
   {
     "codigo": "R0701",
     "medicamento": "Surfactante pulmonar",
