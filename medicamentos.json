@@ -273,13 +273,6 @@
     "observacion": "SOLO UCIN, NEONATOLOGIA Y PEDIATRIA"
   },
   {
-    "codigo": "R607",
-    "medicamento": "Cetirizina",
-    "concentracion": "10 mg",
-    "forma": "Comprimido",
-    "observacion": "MAXIMO 10 COMP."
-  },
-  {
     "codigo": "J0127",
     "medicamento": "Ciprofloxacina",
     "concentracion": "500 mg",
@@ -557,6 +550,13 @@
     "medicamento": "Hidroclorotiazida",
     "concentracion": "50 mg",
     "forma": "Comprimido",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "A0201",
+    "medicamento": "Hidroxido de aluminio y magnesio",
+    "concentracion": "1:1 (120 ml)",
+    "forma": "Suspension",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -875,13 +875,6 @@
     "observacion": "MAXIMO 30 POR MES"
   },
   {
-    "codigo": "A0203",
-    "medicamento": "Omeprazol",
-    "concentracion": "40 mg/ml",
-    "forma": "Inyectable",
-    "observacion": "SOLO 2 POR PACIENTE DIA"
-  },
-  {
     "codigo": "D0202",
     "medicamento": "Oxido de Zinc",
     "concentracion": "con o sin aceite",
@@ -1033,14 +1026,14 @@
     "medicamento": "Solucion Fisiologica",
     "concentracion": "0,9% (1.000 ml)",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "Dispensación NOCTURNA a partir de 22:30 solo para EMERGENCIAS, máximo 1 por paciente"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "B0530",
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "DISPENSACION NOCTURNA A PARTIR DE LAS 22:30 SOLO PARA EMERGENCIAS, MAXIMO 1 POR PACIENTE"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DSD011",
