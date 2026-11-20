@@ -1008,6 +1008,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "B0516",
+    "medicamento": "Solucion de glucosa",
+    "concentracion": "5% (1.000 ml)",
+    "forma": "Solucion parenteral de gran vo",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "B0518",
     "medicamento": "Solucion de glucosa",
     "concentracion": "10% (1.000 ml)",
@@ -1029,11 +1036,18 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "B0525",
+    "medicamento": "Solucion glucosada clorurada",
+    "concentracion": "1.000 ml",
+    "forma": "Solucion parenteral de gran vo",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "B0530",
     "medicamento": "Solucion ringer lactato",
     "concentracion": "1.000 ml",
     "forma": "Solucion parenteral de gran vo",
-    "observacion": "SIN RESTRICCION"
+    "observacion": "SOLO PARA EMERGENCIAS"
   },
   {
     "codigo": "DSD011",
