@@ -1,5 +1,47 @@
 [
   {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "DJ005",
+    "nombre": "Jeringa descartable 10 ml",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "DAC074",
+    "nombre": "Equipo de Venoclisis",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "M0105",
+    "nombre": "Ibuprofeno 400 mg Comprimido",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "J0155",
+    "nombre": "Vancomicina 500 mg Inyectable",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "C0807",
+    "nombre": "Amlodipino 10 mg Comprimido",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "A1106",
+    "nombre": "Complejo B Comprimido",
+    "nota": "Sin restricción"
+  },
+  {
     "fecha": "2026-11-13",
     "tipo": "ingreso",
     "codigo": "M0109",

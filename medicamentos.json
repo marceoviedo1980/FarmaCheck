@@ -347,7 +347,7 @@
     "medicamento": "Complejo B",
     "concentracion": "Segun concentracion estandar",
     "forma": "Comprimido o Capsula",
-    "observacion": "MAXIMO 10 POR PACIENTE"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "A1107",
@@ -424,7 +424,7 @@
     "medicamento": "Equipo de Venoclisis",
     "concentracion": "Sobre estéril",
     "forma": "Con aguja N° 21",
-    "observacion": "SOLO 1 POR PACIENTE CADA TRES DIAS"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "G0204",
@@ -599,7 +599,7 @@
     "medicamento": "Ibuprofeno",
     "concentracion": "400 mg",
     "forma": "Comprimido",
-    "observacion": "15 POR PACIENTE"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "J0150",
@@ -634,7 +634,7 @@
     "medicamento": "Jeringa descartable",
     "concentracion": "Sobre estéril",
     "forma": "10 ml con aguja 21 x 1 1/2\"",
-    "observacion": "MAXIMO 5 POR DIA POR PACIENTE"
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DJ006",
