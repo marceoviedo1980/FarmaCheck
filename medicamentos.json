@@ -91,6 +91,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "J0112",
+    "medicamento": "Ampicilina",
+    "concentracion": "1 g",
+    "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "C1005",
     "medicamento": "Atorvastatina",
     "concentracion": "20 mg",
@@ -103,6 +110,13 @@
     "concentracion": "10 mg/ml",
     "forma": "Inyectable",
     "observacion": "1 POR PACIENTE, SOLO QUIROFANO"
+  },
+  {
+    "codigo": "J0162",
+    "medicamento": "Azitromicina",
+    "concentracion": "200 mg/5 ml",
+    "forma": "Suspension",
+    "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "J0113",
@@ -595,6 +609,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "M0104",
+    "medicamento": "Ibuprofeno",
+    "concentracion": "100 mg/5 ml",
+    "forma": "Suspension",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "M0105",
     "medicamento": "Ibuprofeno",
     "concentracion": "400 mg",
@@ -865,6 +886,13 @@
     "medicamento": "Nifedipino",
     "concentracion": "10 mg",
     "forma": "Comprimido o Capsula",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "J0151",
+    "medicamento": "Nitrofurantoina",
+    "concentracion": "100 mg",
+    "forma": "Comprimido",
     "observacion": "SIN RESTRICCION"
   },
   {
@@ -1180,6 +1208,13 @@
     "medicamento": "Sutura nylon",
     "concentracion": "Sobre estéril",
     "forma": "N° 3/0",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
+    "codigo": "DSC011",
+    "medicamento": "Sutura poliglactina 910",
+    "concentracion": "Sobre estéril",
+    "forma": "N° 1 c/aguja",
     "observacion": "SIN RESTRICCION"
   },
   {

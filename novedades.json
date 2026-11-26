@@ -2,6 +2,76 @@
   {
     "fecha": "2026-11-25",
     "tipo": "ingreso",
+    "codigo": "M0104",
+    "nombre": "Ibuprofeno 100 mg/5 ml Suspensión",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "A0201",
+    "nombre": "Hidróxido de aluminio y magnesio Suspensión",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "J0162",
+    "nombre": "Azitromicina 200 mg/5 ml Suspensión",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "J0151",
+    "nombre": "Nitrofurantoína 100 mg Comprimido",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "DSC011",
+    "nombre": "Sutura poliglactina 910 N° 1 c/aguja",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "J0112",
+    "nombre": "Ampicilina 1 g Inyectable",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "B0533",
+    "nombre": "Sulfato de Magnesio 10% Inyectable",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "B0523",
+    "nombre": "Solución Fisiológica 0,9% 1.000 ml",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "B0530",
+    "nombre": "Solución Ringer Lactato 1.000 ml",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
+    "codigo": "B0516",
+    "nombre": "Solución de glucosa 5% 1.000 ml",
+    "nota": "Sin restricción"
+  },
+  {
+    "fecha": "2026-11-25",
+    "tipo": "ingreso",
     "codigo": "DJ005",
     "nombre": "Jeringa descartable 10 ml",
     "nota": "Se entrega en cantidades debidamente justificadas"
