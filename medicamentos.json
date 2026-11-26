@@ -1212,16 +1212,16 @@
   },
   {
     "codigo": "DSC011",
-    "medicamento": "Sutura poliglactina 910",
+    "medicamento": "Sutura poliglactina \"J\" (ácido poliglicólico)",
     "concentracion": "Sobre estéril",
-    "forma": "N° 1 c/aguja",
+    "forma": "N° 1 con aguja \"J\"",
     "observacion": "SIN RESTRICCION"
   },
   {
     "codigo": "DSC054",
     "medicamento": "Sutura poliglactina 910",
     "concentracion": "Sobre estéril",
-    "forma": "N° 1",
+    "forma": "N° 1 con aguja 4 cm 1/2 círculo",
     "observacion": "SIN RESTRICCION"
   },
   {
