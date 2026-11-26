@@ -1134,6 +1134,13 @@
     "observacion": "SIN RESTRICCION"
   },
   {
+    "codigo": "B0533",
+    "medicamento": "Sulfato de Magnesio",
+    "concentracion": "10%",
+    "forma": "Inyectable",
+    "observacion": "SIN RESTRICCION"
+  },
+  {
     "codigo": "B0308",
     "medicamento": "Sulfato ferroso + Acido fólico + Vitamina C",
     "concentracion": "200 mg + 0.5 mg + 150 mg",
