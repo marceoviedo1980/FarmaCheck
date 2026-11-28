@@ -1,5 +1,12 @@
 [
   {
+    "fecha": "2026-11-28",
+    "tipo": "sinstock",
+    "codigo": "L0126",
+    "nombre": "Metotrexato 2.5 mg Comprimido",
+    "nota": "Retirado de la lista"
+  },
+  {
     "fecha": "2026-11-25",
     "tipo": "ingreso",
     "codigo": "M0104",

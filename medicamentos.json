@@ -812,13 +812,6 @@
     "observacion": "MAXIMO 3 POR PACIENTE DIA"
   },
   {
-    "codigo": "L0126",
-    "medicamento": "Metotrexato",
-    "concentracion": "2.5 mg",
-    "forma": "Comprimido",
-    "observacion": "SIN RESTRICCION"
-  },
-  {
     "codigo": "P0109",
     "medicamento": "Metronidazol",
     "concentracion": "500 mg",
